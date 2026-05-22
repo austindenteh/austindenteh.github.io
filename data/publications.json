@@ -5,64 +5,104 @@
       "items": [
         {
           "title": "Who Increases Emergency Department Use? New Insights from the Oregon Health Insurance Experiment",
-          "authors": "Augustine Denteh and Helge Liebert",
+          "authors": [
+            {"name": "Augustine Denteh"},
+            {"name": "Helge Liebert", "url": "https://www.nber.org/people/helge_liebert"}
+          ],
           "year": "2025",
           "venue": "Journal of the Royal Statistical Society Series A: Statistics in Society",
           "links": [
-            {"label": "DOI", "url": "https://doi.org/10.1093/jrsssa/qnaf114"}
+            {"label": "DOI", "url": "https://doi.org/10.1093/jrsssa/qnaf114"},
+            {"label": "arXiv", "url": "https://arxiv.org/abs/2201.07072"}
           ]
         },
         {
           "title": "The Effect of Shortening High School Duration by One Year on Student Outcomes: Evidence from Ghana",
-          "authors": "Augustine Denteh, Samuel Asare, and Bernardin Senadza",
+          "authors": [
+            {"name": "Augustine Denteh"},
+            {"name": "Samuel Asare", "url": "https://www.cancer.org/research/acs-researchers/samuel-asare-bio.html"},
+            {"name": "Bernardin Senadza", "url": "https://www.ug.edu.gh/economics/people/bernardin-senadza"}
+          ],
           "year": "2024",
           "venue": "The World Bank Economic Review, 39(4), 993-1017",
           "links": [
+            {"label": "PDF", "url": "assets/papers/Denteh_Asare_Senadza_WBER.pdf"},
             {"label": "DOI", "url": "https://doi.org/10.1093/wber/lhae046"}
           ]
         },
         {
           "title": "Do State Supplemental Nutrition Assistance Program Policies Influence Program Participation Among Seniors?",
-          "authors": "Jordan W. Jones, Charles J. Courtemanche, Augustine Denteh, James Marton, and Rusty Tchernis",
+          "authors": [
+            {"name": "Jordan W. Jones", "url": "https://www.ers.usda.gov/authors/ers-staff-directory/jordan-jones"},
+            {"name": "Charles J. Courtemanche", "url": "https://www.courtemanche.org/"},
+            {"name": "Augustine Denteh"},
+            {"name": "James Marton", "url": "https://aysps.gsu.edu/profile/james-marton/"},
+            {"name": "Rusty Tchernis", "url": "https://aysps.gsu.edu/profile/rusty-tchernis/"}
+          ],
           "year": "2022",
           "venue": "Applied Economic Perspectives and Policy, 44(2), 591-608",
           "links": [
+            {"label": "PDF", "url": "assets/papers/Applied-Eco-Perspectives-Pol-2022-Jones.pdf"},
             {"label": "DOI", "url": "https://doi.org/10.1002/aepp.13231"}
           ]
         },
         {
           "title": "Teaching Controversial and Contemporary Topics in Economics using a Jigsaw Literature Review Activity",
-          "authors": "Patrick Button, Laura Collins, Augustine Denteh, Ben Harrell, Elliott Isaac, Monica Garcia-Perez, and Engy Ziedan",
+          "authors": [
+            {"name": "Patrick Button", "url": "https://www.patrickbutton.com/"},
+            {"name": "LaPorchia A. Collins", "url": "https://nutrition.tufts.edu/academics/faculty/laporchia-collins"},
+            {"name": "Augustine Denteh"},
+            {"name": "Monica Garcia-Perez", "url": "https://sites.google.com/view/monicagarciaperez/"},
+            {"name": "Ben Harrell", "url": "https://www.benharrellecon.com/"},
+            {"name": "Elliott Isaac", "url": "https://www.elliottisaac.com/"},
+            {"name": "Engy Ziedan", "url": "https://www.engyziedan.com/"}
+          ],
           "year": "2021",
           "venue": "The Journal of Economic Education, 52(4), 286-295",
           "links": [
+            {"label": "PDF", "url": "assets/papers/Teaching_controversial_topics.pdf"},
             {"label": "DOI", "url": "https://doi.org/10.1080/00220485.2021.1963373"}
           ]
         },
         {
           "title": "Estimating the Associations between SNAP and Food Insecurity, Obesity, and Food Purchases with Imperfect Administrative Measures of Participation",
-          "authors": "Charles Courtemanche, Augustine Denteh, and Rusty Tchernis",
+          "authors": [
+            {"name": "Charles J. Courtemanche", "url": "https://www.courtemanche.org/"},
+            {"name": "Augustine Denteh"},
+            {"name": "Rusty Tchernis", "url": "https://aysps.gsu.edu/profile/rusty-tchernis/"}
+          ],
           "year": "2019",
           "venue": "Southern Economic Journal, 86(1), 202-228",
           "links": [
+            {"label": "PDF", "url": "assets/papers/estimating_the_associations_2019.pdf"},
             {"label": "DOI", "url": "https://doi.org/10.1002/soej.12364"}
           ]
         },
         {
           "title": "On the Estimation of Treatment Effects with Endogenous Misreporting",
-          "authors": "Pierre Nguimkeu, Augustine Denteh, and Rusty Tchernis",
+          "authors": [
+            {"name": "Pierre Nguimkeu", "url": "https://www.nguimkeu.com/"},
+            {"name": "Augustine Denteh"},
+            {"name": "Rusty Tchernis", "url": "https://aysps.gsu.edu/profile/rusty-tchernis/"}
+          ],
           "year": "2019",
           "venue": "Journal of Econometrics, 208(2), 487-506",
           "links": [
+            {"label": "PDF", "url": "assets/papers/JoE2019.pdf"},
             {"label": "DOI", "url": "https://doi.org/10.1016/j.jeconom.2018.10.005"}
           ]
         },
         {
           "title": "The Origins of Early Childhood Anthropometric Persistence",
-          "authors": "Augustine Denteh, Daniel L. Millimet, and Rusty Tchernis",
+          "authors": [
+            {"name": "Augustine Denteh"},
+            {"name": "Daniel L. Millimet", "url": "https://people.smu.edu/dmillimet/"},
+            {"name": "Rusty Tchernis", "url": "https://aysps.gsu.edu/profile/rusty-tchernis/"}
+          ],
           "year": "2019",
           "venue": "Empirical Economics, 56(6), 2185-2224",
           "links": [
+            {"label": "PDF", "url": "assets/papers/Denteh2018_Article_TheOriginsOfEarlyChildhoodAnth.pdf"},
             {"label": "DOI", "url": "https://doi.org/10.1007/s00181-018-1421-z"}
           ]
         }
@@ -73,7 +113,10 @@
       "items": [
         {
           "title": "Immigration Enforcement and Hispanic Identity",
-          "authors": "Hussain Hadah and Augustine Denteh",
+          "authors": [
+            {"name": "Hussain Hadah", "url": "https://hussainhadah.com/"},
+            {"name": "Augustine Denteh"}
+          ],
           "year": "2026",
           "venue": "Working paper",
           "links": [
@@ -82,32 +125,44 @@
         },
         {
           "title": "On the Estimation of Program Participation with Partial Validation",
-          "authors": "Augustine Denteh and Pierre Nguimkeu",
+          "authors": [
+            {"name": "Augustine Denteh"},
+            {"name": "Pierre Nguimkeu", "url": "https://www.nguimkeu.com/"}
+          ],
           "year": "2025",
           "venue": "Working paper",
           "links": [
-            {"label": "arXiv", "url": "https://doi.org/10.48550/arXiv.2512.14616"}
+            {"label": "arXiv", "url": "https://arxiv.org/abs/2512.14616"}
           ]
         },
         {
           "title": "The Intergenerational Effect of the Food Stamp Program on Marriage and Fertility",
-          "authors": "Augustine Denteh and Nicardo McInnis",
+          "authors": [
+            {"name": "Augustine Denteh"},
+            {"name": "Nicardo McInnis", "url": "https://www.mathematica.org/staff/nicardo-mcinnis"}
+          ],
           "year": "2023",
           "venue": "Revise and resubmit, Journal of Population Economics"
         },
         {
           "title": "The Effect of SNAP Purchasing Power on Nutrition",
-          "authors": "Farah Khan and Augustine Denteh",
+          "authors": [
+            {"name": "Farah Khan", "url": "https://www.brookings.edu/people/farah-khan/"},
+            {"name": "Augustine Denteh"}
+          ],
           "year": "2025",
           "venue": "Revise and resubmit, Applied Economic Perspectives and Policy"
         },
         {
           "title": "Misclassification in Difference-in-Differences Models",
-          "authors": "Augustine Denteh and Desire Kedagni",
+          "authors": [
+            {"name": "Augustine Denteh"},
+            {"name": "Desire Kedagni", "url": "https://sites.google.com/site/desirekedagni/"}
+          ],
           "year": "2022",
           "venue": "Working paper",
           "links": [
-            {"label": "arXiv", "url": "https://doi.org/10.48550/arXiv.2207.11890"}
+            {"label": "arXiv", "url": "https://arxiv.org/abs/2207.11890"}
           ]
         },
         {
@@ -126,19 +181,34 @@
       "items": [
         {
           "title": "Anticipation Effects in Difference-in-Differences Models",
-          "authors": "Augustine Denteh, Zhengrun Chen, and Desire Kedagni"
+          "authors": [
+            {"name": "Augustine Denteh"},
+            {"name": "Zhengrun Chen"},
+            {"name": "Desire Kedagni", "url": "https://sites.google.com/site/desirekedagni/"}
+          ]
         },
         {
           "title": "Immigration Enforcement and Child Health",
-          "authors": "Augustine Denteh, Makayla Lavender, and Prithvijit Mukherjee"
+          "authors": [
+            {"name": "Augustine Denteh"},
+            {"name": "Makayla Lavender", "url": "https://www.makaylalavender.com/"},
+            {"name": "Prithvijit Mukherjee", "url": "https://www.thecgo.org/people/prithvijit-mukherjee/"}
+          ]
         },
         {
           "title": "Misreporting of Program Participation and its Consequences for the Estimates of SNAP's Effects on Food Insecurity",
-          "authors": "Augustine Denteh and Farah Khan"
+          "authors": [
+            {"name": "Augustine Denteh"},
+            {"name": "Farah Khan", "url": "https://www.brookings.edu/people/farah-khan/"}
+          ]
         },
         {
           "title": "Teacher Coaching, Educational Triage, and Student Achievement: Evidence from a Mathematics Intervention in Jamaica",
-          "authors": "Nicholas N. Wright, Augustine Denteh, and Patrice Anderson"
+          "authors": [
+            {"name": "Nicholas N. Wright", "url": "https://case.fiu.edu/about/directory/profiles/wright-nicholas.html"},
+            {"name": "Augustine Denteh"},
+            {"name": "Patrice Anderson"}
+          ]
         }
       ]
     }

@@ -11,6 +11,7 @@ project:
     - assets/cv/CV_denteh.pdf
     - assets/cv/CV_denteh.tex
     - assets/img/headshot.jpg
+    - assets/papers
 
 website:
   title: "Augustine Denteh"
