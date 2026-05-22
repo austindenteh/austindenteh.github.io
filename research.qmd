@@ -1,0 +1,8 @@
+---
+title: "Research"
+description: "Publications, working papers, and works in progress by Augustine Denteh."
+---
+
+My research is in health economics, applied econometrics, and causal inference. A recurring theme is how policy evaluation changes when participation, treatment, or outcomes are measured imperfectly.
+
+{{< include _generated/research.md >}}

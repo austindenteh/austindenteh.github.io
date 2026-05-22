@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://austindenteh.github.io/sitemap.xml

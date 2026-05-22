@@ -1,0 +1,27 @@
+---
+title: "Talks"
+description: "Selected talks, workshops, seminars, and conference presentations."
+---
+
+## Selected Upcoming and Recent Talks
+
+- 2026: Triangle Econometrics Conference, UNC-Chapel Hill
+- 2026: 15th Annual Conference of the American Society of Health Economists, Minneapolis
+- 2026: Invited Speaker, QuantBridge Applied Quantitative Webinar Series
+- 2025: 95th Annual Meeting of the Southern Economic Association, Tampa
+- 2025: Annual Health Econometrics Workshop, Ann Arbor
+- 2025: University of North Carolina at Greensboro
+- 2024: Davidson College
+- 2024: RAND Corporation
+- 2024: University of Minnesota, Department of Applied Economics
+
+## Workshops
+
+- Deep Learning Indaba, Ghana
+- Stanford AI + Health Online Conference
+- NEXT-D2: Natural Experiments for Translation in Diabetes 2.0
+- Harvard Data Science Initiative Conference
+- Annual Health Econometrics Workshop
+- NBER Summer Institute Health Economics Workshop
+
+The full list of conferences, seminars, and workshops is available in the [CV](assets/cv/CV_denteh.pdf).

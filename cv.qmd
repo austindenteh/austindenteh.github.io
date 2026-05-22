@@ -1,0 +1,27 @@
+---
+title: "CV"
+description: "Curriculum vitae for Augustine Denteh."
+---
+
+The PDF CV is the canonical version for now.
+
+::: {.button-row}
+[Download CV](assets/cv/CV_denteh.pdf){.button .primary}
+[View LaTeX Source](assets/cv/CV_denteh.tex){.button}
+:::
+
+## Current Position
+
+Assistant Professor, Department of Economics, Davidson College
+
+## Affiliations
+
+- Affiliated Faculty, Tulane Center for Aging, Tulane University
+- Former Assistant Professor, Department of Economics, Tulane University
+- Former Postdoctoral Research Fellow, Harvard Medical School
+
+## Education
+
+- Ph.D. Economics, Georgia State University
+- M.A. Economics, University of Akron
+- B.A. Economics and Statistics, University of Ghana

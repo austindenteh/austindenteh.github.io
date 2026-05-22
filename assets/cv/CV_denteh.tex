@@ -1,0 +1,524 @@
+% Jason R. Blevins - Curriculum Vitae
+%
+% Copyright (C) 2004-2018 Jason R. Blevins <jblevins@xbeta.org>
+% https://jblevins.org/
+%
+% You may use use this document as a template to create your own CV
+% and you may redistribute the source code freely.  No attribution is
+% required in any resulting documents.  I do ask that you please leave
+% this notice and the above URL in the source code if you choose to
+% redistribute this file.
+
+\documentclass[12pt,letterpaper]{article}
+%\documentclass[14pt,letterpaper]{extarticle}
+%\usepackage[sc,osf]{mathpazo}
+\usepackage{fontspec}
+
+% Set your name here
+\def\name{Augustine Denteh}
+
+% Load packages
+\usepackage{hyperref}
+\usepackage{geometry}
+\usepackage{enumitem} % Enumerate with [resume] option
+
+\usepackage{sectsty} % Custom section fonts
+%\usepackage[compact]{titlesec}
+\usepackage{titlesec}
+\titlespacing\section{0pt}{12pt plus 4pt minus 2pt}{6pt plus 2pt minus 2pt}
+\titlespacing\subsection{0pt}{12pt plus 4pt minus 2pt}{6pt plus 2pt minus 2pt}
+\titlespacing\subsubsection{0pt}{12pt plus 4pt minus 2pt}{6pt plus 2pt minus 2pt}
+\usepackage{fontenc}
+
+% Body
+\setmainfont{Garamond Premier Pro}
+% Title
+%\newfontfamily\titleface{Chaparral Pro Subhead}
+\newfontfamily\titleface{Garamond Premier Pro}
+\newcommand{\titlefont}[1]{{\titleface\bfseries\Large\MakeUppercase{#1}}}
+
+% Section Headings
+%\newfontfamily\sectionface{Chaparral Pro Subhead}
+\newfontfamily\sectionface{Garamond Premier Pro}
+\sectionfont{\sectionface\bfseries\normalsize\uppercase}
+\subsectionfont{\sectionface\bfseries\normalsize}
+% Other possible font commands include:
+% \ttfamily for teletype,
+% \sffamily for sans serif,
+% \bfseries for bold,
+% \scshape for small caps,
+% \normalsize, \large, \Large, \LARGE sizes.
+% The following metadata will show up in the PDF properties
+
+\titleformat{\section}
+{\sectionface\bfseries\normalsize\uppercase}{\thesection}{1em}{}[{\titlerule[0.8pt]}]
+
+
+\hypersetup{
+	colorlinks = true,
+	urlcolor = black,
+	pdfauthor = {\name},
+	pdfkeywords = {economics, econometrics, health economics},
+	pdftitle = {\name: Curriculum Vitae},
+	pdfsubject = {Curriculum Vitae},
+	pdfpagemode = UseNone
+}
+\geometry{
+	body={6.6in, 9.0in},
+	left=1.0in,
+	top=1.0in
+}
+% Don't indent paragraphs.
+\setlength\parindent{0em}
+% Make lists without bullets and compact spacing
+\renewenvironment{itemize}{
+	\begin{list}{}{
+			\setlength{\leftmargin}{1em}
+			\setlength{\itemsep}{0.15em}
+			\setlength{\parskip}{0pt}
+			\setlength{\parsep}{0.2em}
+		}
+	}{
+	\end{list}
+}
+\setlist[enumerate]{itemsep=0.25em}
+
+% this is to add a date aligned properlky 
+\newcommand{\resitemwithdate}[2]{%
+	\item 
+	\begin{minipage}[t]{.75\linewidth}
+		\raggedright #1%
+	\end{minipage}
+	\hfill
+	\begin{minipage}[t]{.25\linewidth}
+		\raggedright #2%
+	\end{minipage}
+	\vspace{-4ex}
+}
+
+% Print the month and year
+\renewcommand{\today}{\ifcase \month \or January\or February\or March\or April\or May%
+	\or June\or July\or August\or September\or October\or November\or December\fi%
+	\space \number \year}
+
+\begin{document}
+	% Place name at left and date at right
+	%\titlefont{\name}
+	
+	% Alternatively, print name centered and bold:
+	\centerline{\titlefont{\name}}
+	
+	% Date
+	%\bigskip
+	%\today
+	%\centerline{\today}
+	
+	% Contact Information
+	\bigskip
+	\begin{minipage}[t]{0.5\textwidth}
+		Department of Economics\\
+		209 Ridge Rd \\
+		Box 5000 \\ 
+		Chambers 2157 \\ 
+		Davidson, North Carolina, 28035
+	\end{minipage}
+	\begin{minipage}[t]{0.5\textwidth}
+		%\begin{flushright}
+			\href{mailto:audenteh@davidson.edu}{ \hspace{4cm} audenteh@davidson.edu}\\
+			\href{http://austindenteh.com/}{ \hspace{4cm} austindenteh.com} \\ 
+		    \hspace*{4cm} 704-894-2504 (Office)
+		%\end{flushright}
+	\end{minipage}
+
+\section*{Professional Experience and Affiliations}
+
+\begin{itemize}
+\resitemwithdate{Assistant Professor, Department of Economics, Davidson College, USA}{\hspace{0.5cm} 07/2024 - present}
+\resitemwithdate{Affiliated Faculty, Tulane Center for Aging, Tulane University, USA}{\hspace{0.5cm} 10/2021 - present }
+\resitemwithdate{Assistant Professor, Department of Economics, Tulane University, USA}{\hspace{0.5cm} 07/2019 - 06/2024}
+\resitemwithdate{Postdoctoral Research Fellow, Harvard Medical School, USA}{\hspace{0.5cm} 07/2018 - 06/2019 }
+%	\begin{itemize}
+%		\item Department of Health Care Policy, Harvard Medical School, Boston, MA
+%		%\item Mentor: \href{https://www.hcp.med.harvard.edu/faculty/core/sherri-rose-phd}{Dr. Sherri Rose}
+%	\end{itemize}
+\end{itemize}
+
+\section*{Education}
+
+\begin{itemize}
+	\resitemwithdate{ Ph.D. Economics, Georgia State University, USA}{\hspace{0.5cm} 2018 }
+	% Received May 16, 2010
+	%    \begin{description}[font=\mdseries]
+	%    \item[Dissertation:] ``Essays on Misreporting, the Supplemental Nutrition Assistance Program, and Adult Health''
+	%\item[Committee:] Profs. Rusty Tchernis (chair), Charles Courtemanche, Pierre Nguimkeu, and Ian McCarthy
+	%    \end{description}
+	\resitemwithdate{M.A. Economics, University of Akron, USA}{\hspace{0.5cm} 2012}
+	% Received May 14, 2006
+	\resitemwithdate{ B.A. Economics \& Statistics (First Class Honors), University of Ghana}{\hspace{0.5cm} 2010}
+	% Received May 14, 2004
+\end{itemize}
+
+
+\section*{Research and Teaching Interests}
+\begin{itemize}
+	\item Econometrics, Health Economics, Applied Microeconomics
+\end{itemize}
+
+\section*{Publications}
+
+\begin{enumerate}
+ \item Denteh, A. \& Liebert, H. (2025). \href{https://doi.org/10.1093/jrsssa/qnaf114}{``Who Increases Emergency Department Use? New Insights from the Oregon Health Insurance Experiment''} \textbf{Journal of the Royal Statistical Society Series A: Statistics in Society}	
+\item Denteh A., Asare S., \& Senadza B. (2024). \href{https://doi.org/10.1093/wber/lhae046}{``The Effect of Shortening High School Duration by One Year on Student Outcomes: Evidence from Ghana''} \textbf{The World Bank Economic Review}, 39(4), 993-1017
+\item Jones, J. W., Courtemanche, C. J., Denteh, A., Marton, J., \& Tchernis, R. (2022). \href{https://doi.org/10.1002/aepp.13231}{``Do State Supplemental Nutrition Assistance Program Policies Influence Program Participation Among Seniors?''} \textbf{Applied Economic Perspectives \& Policy}, 44(2), 591-608
+\item Button P., Collins L., Denteh A., Harrell B., Isaac E., Garcia-Perez M., and Ziedan E. (2021). \href{https://doi.org/10.1080/00220485.2021.1963373}{``Teaching Controversial and Contemporary Topics in Economics using a Jigsaw Literature Review Activity.''} \textbf{The Journal of Economic Education}, 52(4), 286-295
+\item Courtemanche, C., Denteh, A., and Tchernis, R. (2019).
+\href{https://doi.org/10.1002/soej.12364}{``Estimating the Associations between SNAP and Food Insecurity, Obesity, and Food Purchases with Imperfect Administrative Measures of Participation.''} \textbf{Southern Economic Journal}, 86(1), 202-228
+\item Nguimkeu, P., Denteh, A., and Tchernis, R. (2019).
+  \href{https://doi.org/10.1016/j.jeconom.2018.10.005}{``On the Estimation of Treatment Effects with
+ Endogenous Misreporting.''} \textbf{Journal of Econometrics}, 208 (2), 487-506
+\item Denteh, A., Millimet, D.~L., and Tchernis, R. (2019).
+  \href{https://doi.org/10.1007/s00181-018-1421-z}{``The Origins of Early Childhood Anthropometric Persistence.''} \textbf{Empirical Economics}, 56 (6), 2185–2224
+\end{enumerate}
+
+\section*{Working Papers}
+\begin{enumerate}[resume]
+\item Hadah H. \& Denteh A. (2026). \href{https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6226541}{``Immigration Enforcement and Hispanic Identity''}
+\item Denteh A. \& Nguimkeu P. (2025). \href{https://doi.org/10.48550/arXiv.2512.14616}{``On the Estimation of Program Participation with Partial Validation''}
+\item Denteh A. \& McInnis N. (2023). ``The Intergenerational Effect of the Food Stamp Program on Marriage and Fertility'' Revise \& Resubmit (second round) at  \textbf{Journal of Population Economics}
+\item Khan F. \& Denteh A. (2025). ``The Effect of SNAP Purchasing Power on Nutrition'' Revise \& Resubmit at  \textbf{Applied Economic Perspectives and Policy}
+\item Denteh A. \& K\'edagni D. (2022). \href{https://doi.org/10.48550/arXiv.2207.11890}{``Misclassification in difference-in-differences models''}
+\item Denteh A. (2020). \href{https://austindenteh.com/wp-content/uploads/2021/02/snap_obesity_two_step_12_2020.pdf}{``The Effect of SNAP on Obesity in the Presence of Endogenous Misreporting''}
+\end{enumerate}
+
+\section*{Works in Progress}
+ \begin{enumerate}[resume]
+\item ``Anticipation Effects in Difference-in-Differences Models'' (with Zhengrun Chen and D\'esir\'e K\'edagni)
+\item ``Immigration Enforcement and Child Health'' (with Makayla Lavender and Prithvijit Mukherjee)
+ \item``Misreporting of Program Participation and its Consequences for the Estimates of SNAP’s Effects on Food Insecurity'' (with Farah Khan)
+ %\item[]``Understanding Senior SNAP Participation and its Impact on their Health'' (with Charles Courtemanche, Jordan Jones, James Marton, and Rusty Tchernis)
+ %\item ``Using Machine Learning to Estimate the Heterogeneous Impacts of Medicaid Managed Care'' (with Timothy Layton, Jacob Wallace, and Sherri Rose)
+ %\item[] ``Labor Supply Effects of SNAP in the Presence of Endogenous Misreporting''
+\item ``Teacher Coaching, Educational Triage, and Student Achievement: Evidence from a Mathematics Intervention in Jamaica'' (with Nicholas N. Wright, Augustine Denteh, and P. Anderson) 
+
+ \end{enumerate}
+
+\section*{Grants}
+
+\begin{itemize}
+	\item Faculty Study and Research (FS \& R) Grant, Davidson College; \$5,000; 2025-2026
+	\item Robert Wood Johnson Foundation, ``Examining the impact of Supplemental Nutrition Assistance Program Purchasing Power on Adults' Food Security, Nutrition, and Health"; \$99,724; 2023-2025
+	\item COR Research Fellowship, Tulane University; \$7,050; 2022-2023
+	\item CELT Award for Faculty Mentored Undergraduate Research,  Tulane University; \$2,825; 2021-2022
+	\item Hayek Fund for Scholars, The Institute for Humane Studies; \$1,000; 2021
+	\item Murphy Institute Seed Grant Award, Tulane University; \$3,000; 2021
+	\item School of Liberal Arts Faculty Research Award, Tulane University; \$5,000; 2020-2021
+	\item Faculty Networking Seminar Award, Provost's Office, Tulane University, \$3,500; Spring 2020
+	\item University of Kentucky Center for Policy Research, ``A Comprehensive Evaluation of the Impact of SNAP on the Health of Seniors" (PI: James Marton); \$250,000; 2019-2021
+	\item U.S. Department of Agriculture (USDA) via National Bureau of Economic Research, ``The Impacts of SNAP on Food Insecurity, Obesity, and Food Purchases: Who Misreports and Does it Matter?" (PI: Charles Courtemanches); \$41,500; 2016-2018
+\end{itemize}
+
+\section*{Honors \& Awards}
+
+\begin{itemize}
+    \item Jack Blicksilver Scholarship, Georgia State University, 2018
+	\item AYSPS Dissertation Fellowship, Georgia State University, 2017 
+	\item Southern Economic Association Graduate Student Session Grant, 2017 
+	\item Western Economic Association International Graduate Student Workshop Grant, 2017
+	\item American Economic Association Summer Program Outstanding Teaching Fellow Award, 2017
+	\item The AYSPS Excellence in Teaching Economics Award, Georgia State University, 2017
+	\item Bernard B. and Eugenia A. Ramsey Chair of Private Enterprise Summer Research Grant, 2016, 2017
+	\item The Joseph K. Heyman Scholarship, Atlanta Economics Club, 2017
+	\item Center for the Economic Analysis of Risk (CEAR) Fellowship	, Georgia State University, 2016-2018
+	\item Federal Reserve Bank of Atlanta Fellowship (Research Assistant), 2015-2016
+	\item The Carolyn McClain Young Leadership Fund Award, Georgia State University, 2013-2016
+	\item Unilever Undergraduate Scholarship, University of Ghana, 2008
+\end{itemize}
+
+\section*{Teaching Experience}
+
+\subsection*{Davidson College}
+\begin{itemize}
+	\item ECO 322: Health Economics (Fall 2024, Spring 2026)
+	\item ECO 101: Introductory Economics (Fall 2024, Spring 2025, Spring 2026)
+\end{itemize}
+
+\subsection*{Tulane University}
+\begin{itemize}
+\item ECON 4971/6971: Machine Learning and Econometrics (Spring 2024)
+\item ECON 7170: Ph.D. Econometrics II (Spring 2020, Spring 2022,  Spring 2024)
+\item ECON 4230/6230: Econometrics (Fall 2019, Fall 2020, Fall 2021, Fall 2022, Spring 2023)
+\item ECON 4500/6500: Health Economics \& Policy (Fall 2019, Fall 2020, Fall 2021, Spring 2023, Fall 2023)
+\item ECON 3970: Economics of the Safety Net (Spring 2021, Spring 2024 [ECON 4970/6970])
+\end{itemize}
+
+\subsection*{Georgia State University}
+
+\begin{itemize}
+	\item Instructor, Econometrics \& Applications (Undergraduate)
+	%\item Guest Lecturer, Econometrics I (Ph.D.), Applied Statistics and Econometrics (Master's)
+	\item Teaching Assistant, Econometrics I \& II (Ph.D.), Econometrics \& Applications (Undergraduate)
+	%\item Instructor, Econometrics \& Applications (Undergraduate), Fall 2016, Spring 2016
+	%\item Instructor, RE$^2$P SAS Workshop, Research Excellence in Economics Program, 2015
+	% \item Guest Lecturer, Econometrics I (Ph.D.), Fall 2017, Fall 2016
+	%\item Guest Lecturer, Applied Statistics and Econometrics (MA), Fall 2017
+	%\item Teaching Assistant, Econometrics I (Ph.D.), Fall 2017, Fall 2016, Fall 2015
+	%\item Teaching Assistant, Econometrics II (Ph.D.), Spring 2017
+	%\item Teaching Assistant, Econometrics \& Applications (Undergraduate), Fall 2014, Spring 2014
+\end{itemize}
+	
+\subsection*{Michigan State University (AEA Summer Program)}
+\begin{itemize}
+	\item Teaching Fellow for Prof. Jeffrey Wooldridge, Econometrics Course (Advanced Level), Summer 2017
+\end{itemize}
+
+\subsection*{University of Ghana}
+\begin{itemize}
+	\item Teaching Assistant, Department of Economics, 2010 -- 2011 
+\end{itemize}
+	
+
+%\section*{Invited Seminars}
+%\begin{description}[font=\mdseries]
+%\item[2018]
+%  University of Montreal (scheduled).
+%\end{description}
+
+\section*{Student Advising}
+\subsection*{Ph.D. Theses Primary Advisor}
+\begin{itemize}
+\item Theodora A. Odonkor, Tulane University, In progress. 
+\item Farah Khan, Tulane University, ``Essays on the economics of transfer programs and fiscal incidence analysis.'' Completed 2024. Fellow, Brookings Institution.  
+\end{itemize}
+
+\subsection*{Ph.D. Theses Committee Member}
+
+\begin{itemize}
+	\item Godwin Aipoh, Georgia State University, In progress. 
+	\item Briana Smith, Tulane University, In progress. 
+	\item Nicholas Lacoste, Tulane University, In progress. 
+	\item Erica Mtenga, Georgia State University, Completed 2025. 
+	\item Truc Bui, Tulane University, Completed 2024.
+	\item Zehra Farooq, Tulane University, Completed 2024.
+	\item Liu Fanyu, Tulane University, Completed 2024.
+	\item Travis Whitacre, Southern Methodist University, ``Three Essays In The Economics Of Child Development And Health Inequities.'' Completed Spring 2023. 
+	\item Sean Larkin, Tulane University, ``Health and Taxes: Three Papers on Public Finance and Public Policy.'' Completed Spring 2022. 
+	\item Marc Sleiman, Georgia State University, ``Essays on Aviation Economics.''  Completed Summer 2021. 
+\end{itemize}
+
+\subsection*{Ph.D. Field Paper Supervision}
+\begin{itemize} 
+\item Barbara Lundebjerg, Tulane University, Committee Member,  2023. 
+\item Michael Cobar, Tulane University, Committee Member,  2023. 
+\item Lele Zhao, Tulane University, Committee Member,  2023. 
+\item Mehrdad Baratian, Tulane University, Committee Member,  2023. 
+\item Farah Khan, Tulane University, Committee Chair, 2021. 
+\item Zehra Farooq, Tulane University, Committee Member,  2021. 
+\item Liu Fanyu, Tulane University, Committee Member, 2021
+\end{itemize}
+
+\subsection*{Undergraduate Honors Theses}
+
+\begin{itemize}
+	\item  Zach Ramsey, Tulane University. ``Cost of Illness Analysis for Type II Diabetes in Louisiana - A Medicare Expenditure Investigation.'' Completed Spring 2024. 
+	\item Mark Xiao, Tulane University. ``An Early Evaluation of Colorado’s Insulin Cost-sharing Cap: Successes and Failures of Price Regulation in Health Insurance.'' Completed Spring 2022.
+	\item  Evan Bennett, Tulane University, ``A Different Kind of Welcome Back: How and Why Schools Reopened During COVID-19.'' Completed Spring 2021. 
+	%\item Undergraduate Major Advisor (2019 - present, 12 students)
+\end{itemize}
+
+\subsection*{Undergraduate Independent Studies}
+\begin{itemize}
+\item  Alexander Chudzik, Davidson College. ``Substance Use and Mental Health.'' Completed Spring 2025. 
+\item Spencer Toomey, Tulane University. ``Differences-in-Differences.'' Completed Fall 2023. 
+\end{itemize}
+
+\section*{Conferences, Seminars, \& Workshops}
+\subsection*{Conferences/Seminars (*=discussant)}
+
+\begin{description}[font=\mdseries]
+	\item[2026] Triangle Econometrics Conference, UNC - Chapel Hill, NC\\
+	15\textsuperscript{th} Annual Conference of the American Society of Health Economists (Minneapolis, MN)
+	\item[2025] 95\textsuperscript{th} Annual Meeting of the Southern Economic Association, Tampa, FL \\ 
+	Annual Health Econometrics Workshop, Ann Arbor, MI\\
+	The University of North Carolina at Greensboro (Spring 2025)
+	\item[2024]  94\textsuperscript{th} Annual Meeting of the Southern Economic Association, Washington, DC \\ 
+	Annual Health Econometrics Workshop, Baltimore, MD\\
+	13\textsuperscript{th} Annual Conference of the American Society of Health Economists (San Diego, CA) \\
+	Davidson College, Davidson, NC (Spring 2024) \\
+	RAND Corporation, Santa Monica, CA (Spring 2024) \\
+	The University of Texas Rio Grande Valley (virtual, Spring 2024) \\
+	University of Minnesota (Department of Applied Economics), Saint Paul, MN
+	\item[2023]  University of Kentucky, Lexington, KY (Spring 2023) \\
+	12\textsuperscript{th} Annual Conference of the American Society of Health Economists (St. Louis, MO)$^*$
+	\item[2022]  92\textsuperscript{th} Annual Meeting of the Southern Economic Association, Fort Lauderdale, FL \\ 
+	Program in Health Economics and Outcomes Methodology (PHEnOM) Seminar, University of Washington (Fall 2022) \\
+	Midwest Econometrics Group (MEG) 2022 Conference, Michigan State University\\ 
+	Institute for Research on Poverty Seminar, University of Wisconsin-Madison (Fall 2022) \\ 
+	11\textsuperscript{th} Annual Conference of the American Society of Health Economists (Austin, TX)\\
+	ASSA 2022 Virtual Annual Meeting$^*$
+	\item[2021] 91\textsuperscript{th} Annual Meeting of the Southern Economic Association, Houston, TX \\
+	10\textsuperscript{th} Annual Conference of the American Society of Health Economists (Summer 2021)\\
+	University of Kentucky Center for Poverty Symposium on ``Understanding Food-Related Hardships Among Older Americans''  (Summer 2021)
+	\item[2020] Florida Gulf Coast University, Fort Myers, FL (Spring 2020) \\
+	Virtual Seminar on the Economics of Risky Health Behaviors (VERB) \\
+	90\textsuperscript{th} Annual Meeting of the Southern Economic Association, New Orleans, LA
+	\item[2019] 89\textsuperscript{th} Annual Meeting of the Southern Economic Association (Fort Lauderdale, FL)$^*$\\
+	Annual Health Econometrics Workshop, Knoxville TN\\
+	8\textsuperscript{th} Annual Conference of the American Society of Health Economists, Washington, DC\\
+	Annual Convention of the Allied Social Science Associations, Atlanta, GA
+	\item[2018] 88\textsuperscript{th} Annual Meeting of the Southern Economic Association, Washington, DC\\
+	7\textsuperscript{th} Annual Conference of the American Society of Health Economists (Atlanta, GA)*\\
+	Harvard Medical School, Boston, MA \\
+	Tulane University, New Orleans, LA \\  
+	The Social and Decision Analytics Lab, Biocomplexity Institute of Virginia Tech, Arlington, VA
+	\item[2017] NBER Food Security Conference (FoodAPS Grant Final Conference), Washington, DC \\
+	Research Department, Federal Reserve Bank of Atlanta, Atlanta, GA \\ 
+	87\textsuperscript{th} Annual Meeting of the Southern Economic Association, Tampa, FL \\ 
+	APPAM 39\textsuperscript{th} Annual Fall Research Conference, Chicago, IL \\ 
+	WEAI's 2017 Graduate Student Workshop, San Diego, CA \\
+	Summer Health Economics Brown Bag Workshop Series, GSU, Atlanta, GA
+	\item[2016] 86\textsuperscript{th} Annual Meeting of the Southern Economic Association, Washington, DC
+\end{description}
+
+\subsection*{Workshops}
+\begin{description}[font=\mdseries]
+	%\item[2023] 2023 IRP Summer Research Workshop, University of Wisconsin-Madison (scheduled)
+	\item[2026] Invited Speaker, \href{https://github.com/austindenteh/staggered-did-workshop}{QuantBridge Applied Quantitative Webinar Series} 
+	\item[2023] Invited Speaker, Deep Learning Indaba, Ghana 
+	\item[2021] Invited Panelist, Stanford AI + Health Online Conference (Health Economics \& Algorithms)
+	\item[2020] Invited Speaker, NEXT-D2:  Natural EXperiments for Translation in Diabetes 2.0, School of Public Health and Tropical Medicine, Tulane University  
+	\item[2019] Harvard Data Science Initiative Conference, Cambridge, MA
+	\item[2018] Harvard Data Science Initiative Conference, Cambridge, MA\\
+	Annual Health Econometrics Workshop, Baltimore MD
+	\item[2016] Annual Health Econometrics Workshop, Aurora, CO
+	\item[2015] NBER Summer Institute Health Economics Workshop, Cambridge, MA
+\end{description}
+
+\section*{University Service}
+\begin{itemize}
+	\item Reviewer, Human Subjects Institutional Review Board, Davidson College: 2025 -- present
+	\item Seminar Coordinator, Murphy-Economics Seminar, Department of Economics, Tulane, 2022 -- 2024
+	\item Faculty Review Board Member, The Tulane Journal of Policy and Political Economy, Tulane, 2020 --
+	\item Member, PhD Admissions Committee, Dept. of Economics, Tulane, 2020 -- 2024
+	\item Member, Ph.D. Qualifying Exams Committee (Econometrics), Dept. of Economics, Tulane, 2020 -- 2024
+\end{itemize}
+\section*{Service in Professional Organizations}
+\subsection*{Peer Review for Academic Journals}
+%\begin{itemize}
+%%\item Reviewer for:
+%\item 
+%\textit{Forum for Health Economics \& Policy ($\times$ 1)},
+%\textit{Economics and Human Biology ($\times$ 1)},
+%\textit{Southern Economic Journal ($\times$ 3)},
+%\textit{JAMA Network Open ($\times$ 1)},
+%\textit{Empirical Economics ($\times$ 1)},
+%\textit{American Journal of Health Economics ($\times$ 1)},
+%\textit{Economics and Human Biology ($\times$ 1)},
+%\textit{Health Economics ($\times$ 3)}
+%\end{itemize}
+\begin{itemize}
+	%\item Reviewer for:
+	\item 
+	\textit{The World Bank Economic Review},
+	\textit{Journal of Political Economy Microeconomics},
+	\textit{Journal of Applied Econometrics},
+	\textit{Journal of Business \& Economic Statistics}, 
+	\textit{Journal of Health Economics}, 
+	\textit{Journal of Development Economics}, 
+	\textit{Health Economics}, 
+	\textit{Economics and Human Biology},
+	\textit{Southern Economic Journal},
+	\textit{JAMA Network Open},
+	\textit{Empirical Economics },
+	\textit{American Journal of Health Economics},
+	\textit{American Journal of Preventive Medicine},
+	\textit{Forum for Health Economics \& Policy},
+	\textit{Annals of Internal Medicine},
+	\textit{Ghana Social Science Journal}
+\end{itemize}
+\subsection*{External Scientific Reviewer Activities}
+\begin{itemize}
+	\item 
+	\textit{NSF NCAR Early Career Faculty Innovator Program (2024)},
+	\textit{National Science foundation (2022)}
+\end{itemize}
+\subsection*{Conference/Session Organizer}
+\begin{itemize}
+	\item Organizing Committee Member, Annual Health Econometrics Workshop, 2021--present 
+	\item Co-founder, \href{https://datasciencenet.org}{Ghana Data Science Summit (IndabaX Ghana): 2019 -- present}
+	\item Session Organizer, Annual Meeting of the Southern Economic Association (2020, 2021)
+\end{itemize}
+\subsection*{Professional Membership}
+\begin{itemize}
+	\item Junior Fellow,  \href{https://africanschoolofeconomics.com/news/pasrc-announces-inaugural-members/}{The Pan-African Scientific Research Council}, 2021 -- present 
+	\item Member: Econometric Society, American Economic Association, Western Economics Association, Southern Economic Association, Association for Public Policy Analysis \& Management
+\end{itemize}
+
+%\section*{Other Professional Experience}
+%\begin{itemize}
+%	\item Graduate Research Assistant, Department of Economics, Georgia State University, GA, 08/2013 -- 05/2018  
+%	\item Research Assistant, Research Department, Federal Reserve Bank of Atlanta, GA, 08/2015 -- 08/2016  
+%	\item Graduate Research Assistant, Department of Economics, The University of Akron, OH, 08/2011 -- 12/2012  
+%\end{itemize}
+
+
+%\section*{Miscellaneous}
+%\begin{itemize}
+%\item Programming and typesetting: Matlab, Stata, R, \LaTeX. 
+%\end{itemize}
+
+\iffalse 
+\section*{References}
+\begin{minipage}{0.3\textwidth}
+	Rusty Tchernis\\
+	Professor\\
+	Department of Economics\\
+	%Andrew Young School of Policy Studies\\
+	Georgia State University\\
+	P.O. Box 3992\\
+	Atlanta, GA 30302-3992\\
+	404-413-0154\\
+	\href{mailto:rtchernis@gsu.edu}{rtchernis@gsu.edu}
+\end{minipage}
+\begin{minipage}{0.4\textwidth}
+Charles Courtemanche\\
+Associate Professor\\
+Department of Economics\\
+Gatton College of Business and Economics\\
+University of Kentucky\\ 
+Lexington, KY\\
+(859) 323-7990\\
+\href{mailto:courtemanche@uky.edu}{courtemanche@uky.edu}
+\end{minipage}
+\begin{minipage}{0.3\textwidth}
+	Pierre N. Nguimkeu\\
+	Associate Professor \\
+	Department of Economics\\
+	%Andrew Young School of Policy Studies\\
+	Georgia State University\\
+	P.O. Box 3992\\
+	Atlanta, GA 30302-3992\\
+	404-413-0162\\
+	\href{mailto:nnguimkeu@gsu.edu}{nnguimkeu@gsu.edu}
+\end{minipage}\\
+
+\vspace{10 mm}
+
+\begin{minipage}{0.3\textwidth}
+	Sherri Rose \\
+	Associate Professor\\
+	Harvard Medical School\\
+	Dept. of Health Care Policy\\
+	180 Longwood Avenue \\
+    Boston, MA 02115 \\ 
+	617-432-3493\\
+	\href{mailto:rose@hcp.med.harvard.edu}{rose@hcp.med.harvard.edu}
+\end{minipage}
+\fi 
+
+\end{document}
+
+%%% Local Variables: 
+%%% coding: utf-8
+%%% mode: latex
+%%% TeX-engine: xetex
+%%% End: 

@@ -1,0 +1,55 @@
+project:
+  type: website
+  output-dir: _site
+  pre-render: scripts/render_data.py
+  post-render: scripts/post_render.py
+  resources:
+    - robots.txt
+    - assets/cv/CV_denteh.pdf
+    - assets/cv/CV_denteh.tex
+    - assets/img/headshot.jpg
+
+website:
+  title: "Augustine Denteh"
+  site-url: "https://austindenteh.github.io"
+  description: "Assistant Professor of Economics at Davidson College. Health economics, applied econometrics, and causal inference."
+  navbar:
+    pinned: true
+    right:
+      - href: index.qmd
+        text: Home
+      - href: research.qmd
+        text: Research
+      - href: code.qmd
+        text: Code
+      - href: teaching.qmd
+        text: Teaching
+      - href: talks.qmd
+        text: Talks
+      - href: notes.qmd
+        text: Notes
+      - href: cv.qmd
+        text: CV
+  page-footer:
+    left: "Augustine Denteh"
+    right:
+      - text: GitHub
+        href: https://github.com/austindenteh
+      - text: Google Scholar
+        href: https://scholar.google.com/citations?hl=en&user=iDrWssAAAAAJ
+      - text: LinkedIn
+        href: https://www.linkedin.com/in/augustinedenteh
+      - text: Davidson
+        href: https://www.davidson.edu/people/austin-denteh
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false
+    smooth-scroll: true
+    link-external-newwindow: true
+    anchor-sections: true
+
+execute:
+  freeze: auto

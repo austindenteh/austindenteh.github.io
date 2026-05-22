@@ -1,0 +1,93 @@
+---
+pagetitle: "Augustine Denteh"
+description: "Assistant Professor of Economics at Davidson College."
+---
+
+<style>
+#title-block-header {
+  display: none;
+}
+</style>
+
+::: {.home-hero}
+::: {.home-copy}
+<div class="hero-name">Augustine Denteh</div>
+
+Assistant Professor of Economics, Davidson College
+
+I study health economics and applied econometrics, with a focus on how public policies affect health, wellbeing, and program participation. My work uses causal inference, measurement error models, impact evaluation, and statistical machine learning tools to study food and nutrition programs, health insurance, obesity, and related policy questions.
+
+I am an assistant professor in the Department of Economics at Davidson College. I previously served on the faculty at Tulane University and completed a postdoctoral fellowship at Harvard Medical School after earning my Ph.D. in Economics from Georgia State University.
+
+::: {.button-row}
+[Research](research.qmd){.button .primary}
+[CV](assets/cv/CV_denteh.pdf){.button}
+[Code](code.qmd){.button}
+:::
+:::
+
+::: {.home-photo}
+![](assets/img/headshot.jpg){fig-alt="Augustine Denteh"}
+:::
+:::
+
+::: {.interest-strip}
+`Health Economics` `Applied Econometrics` `Causal Inference` `Measurement Error` `Food and Nutrition Programs`
+:::
+
+## Selected Work
+
+::: {.feature-grid}
+::: {.feature-card}
+### Emergency Department Use
+
+New evidence from the Oregon Health Insurance Experiment on who increases emergency department utilization.
+
+[Read more](https://doi.org/10.1093/jrsssa/qnaf114)
+:::
+
+::: {.feature-card}
+### High School Duration in Ghana
+
+Evidence on how shortening high school duration by one year affected student outcomes.
+
+[Read more](https://doi.org/10.1093/wber/lhae046)
+:::
+
+::: {.feature-card}
+### Program Participation and Measurement
+
+Methods for estimating treatment effects and program participation when participation is misreported or partially validated.
+
+[Research](research.qmd)
+:::
+:::
+
+## Featured Code
+
+::: {.feature-grid}
+::: {.feature-card}
+### ECO 322 Public Data
+
+Public data resources connected to Health Economics teaching.
+
+[Repository](https://github.com/austindenteh/eco-322-public-data)
+:::
+
+::: {.feature-card}
+### Staggered DiD Workshop
+
+Workshop materials on difference-in-differences with staggered treatment timing.
+
+[Repository](https://github.com/austindenteh/staggered-did-workshop)
+:::
+:::
+
+## Contact
+
+Department of Economics  
+Davidson College  
+209 Ridge Rd., Chambers 2157  
+Davidson, NC 28035  
+
+[audenteh@davidson.edu](mailto:audenteh@davidson.edu)

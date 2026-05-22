@@ -1,0 +1,14 @@
+.DS_Store
+/Augustine _Austin_ Denteh_01.jpg
+/Augustine _Austin_ Denteh_01.pdf
+/CV/
+/.quarto/
+/_freeze/
+/_generated/
+/_site/
+*.log
+*.aux
+*.out
+*.synctex.gz
+
+**/*.quarto_ipynb

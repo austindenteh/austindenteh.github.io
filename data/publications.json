@@ -1,0 +1,146 @@
+{
+  "groups": [
+    {
+      "label": "Publications",
+      "items": [
+        {
+          "title": "Who Increases Emergency Department Use? New Insights from the Oregon Health Insurance Experiment",
+          "authors": "Augustine Denteh and Helge Liebert",
+          "year": "2025",
+          "venue": "Journal of the Royal Statistical Society Series A: Statistics in Society",
+          "links": [
+            {"label": "DOI", "url": "https://doi.org/10.1093/jrsssa/qnaf114"}
+          ]
+        },
+        {
+          "title": "The Effect of Shortening High School Duration by One Year on Student Outcomes: Evidence from Ghana",
+          "authors": "Augustine Denteh, Samuel Asare, and Bernardin Senadza",
+          "year": "2024",
+          "venue": "The World Bank Economic Review, 39(4), 993-1017",
+          "links": [
+            {"label": "DOI", "url": "https://doi.org/10.1093/wber/lhae046"}
+          ]
+        },
+        {
+          "title": "Do State Supplemental Nutrition Assistance Program Policies Influence Program Participation Among Seniors?",
+          "authors": "Jordan W. Jones, Charles J. Courtemanche, Augustine Denteh, James Marton, and Rusty Tchernis",
+          "year": "2022",
+          "venue": "Applied Economic Perspectives and Policy, 44(2), 591-608",
+          "links": [
+            {"label": "DOI", "url": "https://doi.org/10.1002/aepp.13231"}
+          ]
+        },
+        {
+          "title": "Teaching Controversial and Contemporary Topics in Economics using a Jigsaw Literature Review Activity",
+          "authors": "Patrick Button, Laura Collins, Augustine Denteh, Ben Harrell, Elliott Isaac, Monica Garcia-Perez, and Engy Ziedan",
+          "year": "2021",
+          "venue": "The Journal of Economic Education, 52(4), 286-295",
+          "links": [
+            {"label": "DOI", "url": "https://doi.org/10.1080/00220485.2021.1963373"}
+          ]
+        },
+        {
+          "title": "Estimating the Associations between SNAP and Food Insecurity, Obesity, and Food Purchases with Imperfect Administrative Measures of Participation",
+          "authors": "Charles Courtemanche, Augustine Denteh, and Rusty Tchernis",
+          "year": "2019",
+          "venue": "Southern Economic Journal, 86(1), 202-228",
+          "links": [
+            {"label": "DOI", "url": "https://doi.org/10.1002/soej.12364"}
+          ]
+        },
+        {
+          "title": "On the Estimation of Treatment Effects with Endogenous Misreporting",
+          "authors": "Pierre Nguimkeu, Augustine Denteh, and Rusty Tchernis",
+          "year": "2019",
+          "venue": "Journal of Econometrics, 208(2), 487-506",
+          "links": [
+            {"label": "DOI", "url": "https://doi.org/10.1016/j.jeconom.2018.10.005"}
+          ]
+        },
+        {
+          "title": "The Origins of Early Childhood Anthropometric Persistence",
+          "authors": "Augustine Denteh, Daniel L. Millimet, and Rusty Tchernis",
+          "year": "2019",
+          "venue": "Empirical Economics, 56(6), 2185-2224",
+          "links": [
+            {"label": "DOI", "url": "https://doi.org/10.1007/s00181-018-1421-z"}
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Working Papers",
+      "items": [
+        {
+          "title": "Immigration Enforcement and Hispanic Identity",
+          "authors": "Hussain Hadah and Augustine Denteh",
+          "year": "2026",
+          "venue": "Working paper",
+          "links": [
+            {"label": "SSRN", "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6226541"}
+          ]
+        },
+        {
+          "title": "On the Estimation of Program Participation with Partial Validation",
+          "authors": "Augustine Denteh and Pierre Nguimkeu",
+          "year": "2025",
+          "venue": "Working paper",
+          "links": [
+            {"label": "arXiv", "url": "https://doi.org/10.48550/arXiv.2512.14616"}
+          ]
+        },
+        {
+          "title": "The Intergenerational Effect of the Food Stamp Program on Marriage and Fertility",
+          "authors": "Augustine Denteh and Nicardo McInnis",
+          "year": "2023",
+          "venue": "Revise and resubmit, Journal of Population Economics"
+        },
+        {
+          "title": "The Effect of SNAP Purchasing Power on Nutrition",
+          "authors": "Farah Khan and Augustine Denteh",
+          "year": "2025",
+          "venue": "Revise and resubmit, Applied Economic Perspectives and Policy"
+        },
+        {
+          "title": "Misclassification in Difference-in-Differences Models",
+          "authors": "Augustine Denteh and Desire Kedagni",
+          "year": "2022",
+          "venue": "Working paper",
+          "links": [
+            {"label": "arXiv", "url": "https://doi.org/10.48550/arXiv.2207.11890"}
+          ]
+        },
+        {
+          "title": "The Effect of SNAP on Obesity in the Presence of Endogenous Misreporting",
+          "authors": "Augustine Denteh",
+          "year": "2020",
+          "venue": "Working paper",
+          "links": [
+            {"label": "PDF", "url": "https://austindenteh.com/wp-content/uploads/2021/02/snap_obesity_two_step_12_2020.pdf"}
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Works in Progress",
+      "items": [
+        {
+          "title": "Anticipation Effects in Difference-in-Differences Models",
+          "authors": "Augustine Denteh, Zhengrun Chen, and Desire Kedagni"
+        },
+        {
+          "title": "Immigration Enforcement and Child Health",
+          "authors": "Augustine Denteh, Makayla Lavender, and Prithvijit Mukherjee"
+        },
+        {
+          "title": "Misreporting of Program Participation and its Consequences for the Estimates of SNAP's Effects on Food Insecurity",
+          "authors": "Augustine Denteh and Farah Khan"
+        },
+        {
+          "title": "Teacher Coaching, Educational Triage, and Student Achievement: Evidence from a Mathematics Intervention in Jamaica",
+          "authors": "Nicholas N. Wright, Augustine Denteh, and Patrice Anderson"
+        }
+      ]
+    }
+  ]
+}

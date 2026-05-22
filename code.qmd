@@ -1,0 +1,10 @@
+---
+title: "Code"
+description: "Public repositories, workshop materials, and teaching code by Augustine Denteh."
+---
+
+This page highlights public repositories that are useful for teaching, workshops, or applied research. Private repositories are intentionally excluded.
+
+{{< include _generated/repos.md >}}
+
+More public work is available on [GitHub](https://github.com/austindenteh).

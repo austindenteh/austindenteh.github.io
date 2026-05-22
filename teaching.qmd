@@ -1,0 +1,23 @@
+---
+title: "Teaching"
+description: "Teaching by Augustine Denteh."
+---
+
+## Davidson College
+
+- ECO 322: Health Economics
+- ECO 101: Introductory Economics
+
+## Tulane University
+
+- ECON 4971/6971: Machine Learning and Econometrics
+- ECON 7170: Ph.D. Econometrics II
+- ECON 4230/6230: Econometrics
+- ECON 4500/6500: Health Economics and Policy
+- ECON 3970: Economics of the Safety Net
+
+## Earlier Teaching
+
+- Georgia State University: Econometrics and Applications; Econometrics I and II
+- AEA Summer Program, Michigan State University: Teaching Fellow for Jeffrey Wooldridge, advanced econometrics
+- University of Ghana: Teaching Assistant, Department of Economics
