@@ -1,0 +1,41 @@
+{
+  "groups": [
+    {
+      "label": "Featured Code & Data",
+      "items": [
+        {
+          "name": "eco-322-public-data",
+          "title": "ECO 322 Public Data",
+          "url": "https://github.com/austindenteh/eco-322-public-data",
+          "description": "Public data resources connected to Health Economics teaching.",
+          "tags": ["Health Economics", "Data", "Students"]
+        }
+      ]
+    },
+    {
+      "label": "Workshops & Methods",
+      "items": [
+        {
+          "name": "staggered-did-workshop",
+          "title": "Staggered DiD Workshop",
+          "url": "https://github.com/austindenteh/staggered-did-workshop",
+          "description": "Workshop materials on difference-in-differences with staggered treatment timing.",
+          "tags": ["Causal Inference", "Difference-in-Differences", "Workshop"]
+        }
+      ]
+    },
+    {
+      "label": "Public Datasets",
+      "items": []
+    },
+    {
+      "label": "Research Tools",
+      "items": []
+    },
+    {
+      "label": "Student Resources",
+      "items": []
+    }
+  ],
+  "github_profile": "https://github.com/austindenteh"
+}

@@ -1,7 +1,7 @@
 ---
-title: "Code"
+title: "Resources"
 ---
 
-{{< include _generated/repos.md >}}
+{{< include _generated/resources.md >}}
 
 More public work is available on [GitHub](https://github.com/austindenteh).

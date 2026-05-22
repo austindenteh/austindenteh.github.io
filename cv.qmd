@@ -17,6 +17,10 @@ Assistant Professor, Department of Economics, Davidson College
 - Former Assistant Professor, Department of Economics, Tulane University
 - Former Postdoctoral Research Fellow, Harvard Medical School
 
+## Leadership & Service
+
+- Co-founder, [Data Science Network Ghana](https://datasciencenet.org), home of the Ghana Data Science Summit / IndabaX Ghana
+
 ## Education
 
 - Ph.D. Economics, Georgia State University

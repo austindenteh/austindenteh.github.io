@@ -72,30 +72,36 @@ def render_publications():
     (GENERATED / "research.md").write_text("\n".join(sections))
 
 
-def render_repos():
-    data = json.loads((ROOT / "data" / "repos.json").read_text())
-    sections = ['<div class="repo-grid">\n']
-    for repo in data["featured"]:
-        title = html.escape(repo["title"])
-        url = html.escape(repo["url"], quote=True)
-        description = html.escape(repo["description"])
-        tags = " ".join(f"<span>{html.escape(tag)}</span>" for tag in repo.get("tags", []))
-        sections.append(
-            '<article class="repo-card">\n'
-            f'  <h3><a href="{url}">{title}</a></h3>\n'
-            f'  <p>{description}</p>\n'
-            f'  <div class="tag-row">{tags}</div>\n'
-            f'  <a class="text-link" href="{url}">View repository</a>\n'
-            '</article>\n'
-        )
-    sections.append("</div>\n")
-    (GENERATED / "repos.md").write_text("\n".join(sections))
+def render_resources():
+    data = json.loads((ROOT / "data" / "resources.json").read_text())
+    sections = []
+    for group in data["groups"]:
+        items = group.get("items", [])
+        if not items:
+            continue
+        sections.append(f'## {html.escape(group["label"])}\n')
+        sections.append('<div class="repo-grid">\n')
+        for item in items:
+            title = html.escape(item["title"])
+            url = html.escape(item["url"], quote=True)
+            description = html.escape(item["description"])
+            tags = " ".join(f"<span>{html.escape(tag)}</span>" for tag in item.get("tags", []))
+            sections.append(
+                '<article class="repo-card">\n'
+                f'  <h3><a href="{url}">{title}</a></h3>\n'
+                f'  <p>{description}</p>\n'
+                f'  <div class="tag-row">{tags}</div>\n'
+                f'  <a class="text-link" href="{url}">View resource</a>\n'
+                '</article>\n'
+            )
+        sections.append("</div>\n")
+    (GENERATED / "resources.md").write_text("\n".join(sections))
 
 
 def main():
     GENERATED.mkdir(exist_ok=True)
     render_publications()
-    render_repos()
+    render_resources()
 
 
 if __name__ == "__main__":

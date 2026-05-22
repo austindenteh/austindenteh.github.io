@@ -22,7 +22,7 @@ I am an assistant professor in the Department of Economics at Davidson College. 
 ::: {.button-row}
 [Research](research.qmd){.button .primary}
 [CV](assets/cv/CV_denteh.pdf){.button}
-[Code](code.qmd){.button}
+[Resources](resources.qmd){.button}
 :::
 :::
 
@@ -91,5 +91,17 @@ Public data resources connected to Health Economics teaching.
 Workshop materials on difference-in-differences with staggered treatment timing.
 
 [Repository](https://github.com/austindenteh/staggered-did-workshop)
+:::
+:::
+
+## Community & Leadership
+
+::: {.feature-grid}
+::: {.feature-card}
+### Data Science Network Ghana
+
+Co-founder of [Data Science Network Ghana](https://datasciencenet.org), home of the Ghana Data Science Summit / IndabaX Ghana and a community initiative supporting data science and AI education, workshops, mentorship, and annual convenings in Ghana.
+
+[Visit DSN Ghana](https://datasciencenet.org)
 :::
 :::

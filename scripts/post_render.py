@@ -6,8 +6,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 SITE = ROOT / "_site"
-PAGES = ["cv", "research", "code", "teaching", "blog"]
-DISABLED_PAGES = ["talks", "notes"]
+PAGES = ["cv", "research", "resources", "teaching"]
+DISABLED_PAGES = ["talks", "notes", "blog", "code"]
 
 
 def rewrite_for_directory_page(html_text):

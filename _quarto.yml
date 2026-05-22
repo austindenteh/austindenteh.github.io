@@ -4,6 +4,7 @@ project:
   render:
     - "*.qmd"
     - "!talks.qmd"
+    - "!blog.qmd"
   pre-render: scripts/render_data.py
   post-render: scripts/post_render.py
   resources:
@@ -26,12 +27,10 @@ website:
         text: Research
       - href: cv.qmd
         text: CV
-      - href: code.qmd
-        text: Code
+      - href: resources.qmd
+        text: Resources
       - href: teaching.qmd
         text: Teaching
-      - href: blog.qmd
-        text: Blog
   page-footer:
     left: "Augustine Denteh"
     right:
