@@ -13,11 +13,12 @@ project:
     - assets/cv/CV_denteh.tex
     - assets/img/headshot.jpg
     - assets/papers
+    - CNAME
     - wp-content
 
 website:
   title: "Augustine Denteh"
-  site-url: "https://austindenteh.github.io"
+  site-url: "https://austindenteh.com"
   description: "Assistant Professor of Economics at Davidson College. Health economics, applied econometrics, and causal inference."
   navbar:
     pinned: true

@@ -1,6 +1,6 @@
 # Augustine Denteh Website
 
-Quarto source for the professional website at `austindenteh.github.io`.
+Quarto source for the professional website at `austindenteh.com`.
 
 ## Local Preview
 
@@ -34,4 +34,4 @@ The rendered site is written to `_site/`.
 
 The GitHub Actions workflow in `.github/workflows/publish.yml` renders the Quarto site and deploys `_site/` to GitHub Pages. In the GitHub repository settings, set Pages to deploy from GitHub Actions.
 
-The custom domain `austindenteh.com` should be added later, after this GitHub Pages version is reviewed. At that point, update `site-url`, add a `CNAME` file containing `austindenteh.com`, and then change DNS.
+The custom domain is `austindenteh.com`. The root `CNAME` file is included in the Quarto resources so GitHub Pages preserves the custom-domain setting during deploys.
