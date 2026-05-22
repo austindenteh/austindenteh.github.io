@@ -4,7 +4,7 @@
 
 <article class="publication-item">
   <h3>Who Increases Emergency Department Use? New Insights from the Oregon Health Insurance Experiment</h3>
-  <p class="pub-authors">Augustine Denteh and <a href="https://www.nber.org/people/helge_liebert">Helge Liebert</a></p>
+  <p class="pub-authors">Augustine Denteh and <a href="https://hliebert.github.io/about/">Helge Liebert</a></p>
   <p class="pub-meta">2025 | Journal of the Royal Statistical Society Series A: Statistics in Society</p>
   <div class="link-row"><a class="pill-link" href="assets/papers/qnaf114.pdf">PDF</a>
 <a class="pill-link" href="https://doi.org/10.1093/jrsssa/qnaf114">DOI</a>
@@ -118,7 +118,7 @@
 
 <article class="publication-item">
   <h3>Immigration Enforcement and Child Health</h3>
-  <p class="pub-authors">Augustine Denteh, <a href="https://www.makaylalavender.com/">Makayla Lavender</a>, and <a href="https://www.thecgo.org/people/prithvijit-mukherjee/">Prithvijit Mukherjee</a></p>
+  <p class="pub-authors">Augustine Denteh, <a href="https://www.makaylalavender.com/">Makayla Lavender</a>, and <a href="https://sites.google.com/view/prithvijitmukherjee/home">Prithvijit Mukherjee</a></p>
 </article>
 
 <article class="publication-item">
@@ -128,7 +128,7 @@
 
 <article class="publication-item">
   <h3>Teacher Coaching, Educational Triage, and Student Achievement: Evidence from a Mathematics Intervention in Jamaica</h3>
-  <p class="pub-authors"><a href="https://case.fiu.edu/about/directory/profiles/wright-nicholas.html">Nicholas N. Wright</a>, Augustine Denteh, and Patrice Anderson</p>
+  <p class="pub-authors"><a href="https://sites.google.com/view/wrightecon">Nicholas N. Wright</a>, Augustine Denteh, and Patrice Anderson</p>
 </article>
 
 </div>
