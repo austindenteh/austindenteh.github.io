@@ -12,6 +12,7 @@
           "year": "2025",
           "venue": "Journal of the Royal Statistical Society Series A: Statistics in Society",
           "links": [
+            {"label": "PDF", "url": "assets/papers/qnaf114.pdf"},
             {"label": "DOI", "url": "https://doi.org/10.1093/jrsssa/qnaf114"},
             {"label": "arXiv", "url": "https://arxiv.org/abs/2201.07072"}
           ]
