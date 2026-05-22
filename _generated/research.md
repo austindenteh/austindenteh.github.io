@@ -102,7 +102,7 @@
   <h3>The Effect of SNAP on Obesity in the Presence of Endogenous Misreporting</h3>
   <p class="pub-authors">Augustine Denteh</p>
   <p class="pub-meta">2020 | Working paper</p>
-  <div class="link-row"><a class="pill-link" href="https://austindenteh.com/wp-content/uploads/2021/02/snap_obesity_two_step_12_2020.pdf">PDF</a></div>
+  <div class="link-row"><a class="pill-link" href="assets/papers/snap_obesity_two_step_12_2020.pdf">PDF</a></div>
 </article>
 
 </div>

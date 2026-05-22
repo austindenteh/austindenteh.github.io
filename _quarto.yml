@@ -13,6 +13,7 @@ project:
     - assets/cv/CV_denteh.tex
     - assets/img/headshot.jpg
     - assets/papers
+    - wp-content
 
 website:
   title: "Augustine Denteh"
