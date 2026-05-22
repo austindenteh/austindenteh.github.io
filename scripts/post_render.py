@@ -6,7 +6,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 SITE = ROOT / "_site"
-PAGES = ["cv", "research", "code", "teaching", "talks", "notes"]
+PAGES = ["cv", "research", "code", "teaching", "blog"]
+DISABLED_PAGES = ["talks", "notes"]
 
 
 def rewrite_for_directory_page(html_text):
@@ -40,10 +41,21 @@ def copy_extensionless_pages():
         (dest_dir / "index.html").write_text(rewrite_for_directory_page(text))
 
 
+def remove_disabled_pages():
+    for page in DISABLED_PAGES:
+        html_file = SITE / f"{page}.html"
+        page_dir = SITE / page
+        if html_file.exists():
+            html_file.unlink()
+        if page_dir.exists():
+            shutil.rmtree(page_dir)
+
+
 def main():
     if not SITE.exists():
         return
     copy_extensionless_pages()
+    remove_disabled_pages()
     (SITE / ".nojekyll").write_text("")
 
 

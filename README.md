@@ -22,8 +22,7 @@ The rendered site is written to `_site/`.
 - `research.qmd`: research page
 - `code.qmd`: code and repositories page
 - `teaching.qmd`: teaching page
-- `talks.qmd`: talks and workshops page
-- `notes.qmd`: notes page
+- `blog.qmd`: blog page
 - `cv.qmd`: CV page
 - `data/publications.json`: structured publications, working papers, and works in progress
 - `data/repos.json`: featured public repositories

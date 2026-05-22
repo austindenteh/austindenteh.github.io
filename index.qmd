@@ -28,6 +28,17 @@ I am an assistant professor in the Department of Economics at Davidson College. 
 
 ::: {.home-photo}
 ![](assets/img/headshot.jpg){fig-alt="Augustine Denteh"}
+
+::: {.profile-contact}
+### Contact
+
+Department of Economics  
+Davidson College  
+209 Ridge Rd., Chambers 2157  
+Davidson, NC 28035  
+
+[Email](mailto:audenteh@davidson.edu) · [Google Scholar](https://scholar.google.com/citations?hl=en&user=iDrWssAAAAAJ) · [GitHub](https://github.com/austindenteh) · [LinkedIn](https://www.linkedin.com/in/augustinedenteh) · [Davidson](https://www.davidson.edu/people/austin-denteh)
+:::
 :::
 :::
 
@@ -63,7 +74,7 @@ Methods for estimating treatment effects and program participation when particip
 :::
 :::
 
-## Featured Code
+## Featured Resources
 
 ::: {.feature-grid}
 ::: {.feature-card}
@@ -82,12 +93,3 @@ Workshop materials on difference-in-differences with staggered treatment timing.
 [Repository](https://github.com/austindenteh/staggered-did-workshop)
 :::
 :::
-
-## Contact
-
-Department of Economics  
-Davidson College  
-209 Ridge Rd., Chambers 2157  
-Davidson, NC 28035  
-
-[audenteh@davidson.edu](mailto:audenteh@davidson.edu)

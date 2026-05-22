@@ -1,0 +1,6 @@
+---
+title: "Blog"
+description: "Short notes, teaching materials, and occasional updates."
+---
+
+Short notes, teaching materials, and occasional updates.

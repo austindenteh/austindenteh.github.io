@@ -6,7 +6,7 @@
   --accent: #22577a;
   --accent-dark: #183d55;
   --warm: #9b5d2e;
-  --max-width: 1120px;
+  --max-width: 1240px;
 }
 
 *,
@@ -60,19 +60,20 @@ h2 {
 
 .home-hero {
   display: grid;
-  grid-template-columns: minmax(0, 1.55fr) minmax(280px, 0.75fr);
-  gap: clamp(2rem, 5vw, 4.5rem);
+  grid-template-columns: minmax(0, 1.9fr) minmax(280px, 0.75fr);
+  gap: clamp(2rem, 4vw, 4rem);
   align-items: center;
   padding: 2.3rem 0 1.4rem;
 }
 
 .hero-name {
   display: block;
-  font-size: clamp(2.35rem, 5vw, 4.6rem);
+  font-size: clamp(2.05rem, 4.25vw, 3.85rem);
   line-height: 1.02;
   margin-bottom: 0.35rem;
   font-weight: 800;
   color: var(--ink);
+  white-space: nowrap;
 }
 
 .home-copy,
@@ -94,6 +95,24 @@ h2 {
   object-position: center center;
   border-radius: 8px;
   border: 1px solid var(--line);
+}
+
+.profile-contact {
+  margin-top: 1rem;
+  padding-top: 0.95rem;
+  border-top: 1px solid var(--line);
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.profile-contact h3 {
+  margin-top: 0;
+  margin-bottom: 0.45rem;
+  font-size: 1rem;
+}
+
+.profile-contact p {
+  margin-bottom: 0.45rem;
 }
 
 .button-row {
@@ -283,12 +302,8 @@ h2 {
     font-size: 16px;
   }
 
-  .home-copy h1 {
-    font-size: 2.45rem;
-  }
-
   .hero-name {
-    font-size: 2.45rem;
+    font-size: 2.15rem;
   }
 
   .button-row p {

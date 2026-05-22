@@ -1,9 +1,6 @@
 ---
 title: "CV"
-description: "Curriculum vitae for Augustine Denteh."
 ---
-
-The PDF CV is the canonical version for now.
 
 ::: {.button-row}
 [Download CV](assets/cv/CV_denteh.pdf){.button .primary}
