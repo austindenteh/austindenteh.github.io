@@ -31,6 +31,8 @@ website:
         text: Resources
       - href: teaching.qmd
         text: Teaching
+      - href: media.qmd
+        text: Media
   page-footer:
     left: "Augustine Denteh"
     right:
@@ -38,6 +40,8 @@ website:
         href: https://github.com/austindenteh
       - text: Google Scholar
         href: https://scholar.google.com/citations?hl=en&user=iDrWssAAAAAJ
+      - text: ORCID
+        href: https://orcid.org/0000-0003-0965-015X
       - text: LinkedIn
         href: https://www.linkedin.com/in/augustinedenteh
       - text: Davidson

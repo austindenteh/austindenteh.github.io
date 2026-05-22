@@ -1,0 +1,63 @@
+---
+title: "Media & Public Engagement"
+---
+
+## Coverage
+
+::: {.feature-grid}
+::: {.feature-card}
+### Unexpected Route to Economics Leads to Career in Higher Ed
+
+Georgia State University profile on Augustine Denteh's path to economics and higher education.
+
+[Read article](https://news.gsu.edu/2025/03/12/unexpected-route-to-economics-leads-to-career-in-higher-ed/)
+:::
+
+::: {.feature-card}
+### Ghana Data Science Summit 2025
+
+MyJoyOnline coverage of the Ghana Data Science Summit and its work supporting data and AI skills for impact.
+
+[Read article](https://www.myjoyonline.com/ghana-data-science-summit-2025-empowering-the-use-of-data-and-ai-skills-for-impact/)
+:::
+:::
+
+## Videos
+
+::: {.feature-grid}
+::: {.feature-card}
+### Podcast Appearance
+
+Video podcast appearance.
+
+[Watch on YouTube](https://youtu.be/4uwPnwNQCCw?si=7t8KMsY0S5jHAW3_)
+:::
+
+::: {.feature-card}
+### Recorded Research Presentation
+
+Recorded presentation of research work.
+
+[Watch on YouTube](https://youtu.be/z0MHhSSxUrU?si=pClqLm_df38DJLtc)
+:::
+:::
+
+## Profiles
+
+::: {.feature-grid}
+::: {.feature-card}
+### ORCID
+
+Persistent researcher identifier and publication profile.
+
+[View ORCID](https://orcid.org/0000-0003-0965-015X)
+:::
+
+::: {.feature-card}
+### ResearchGate
+
+ResearchGate profile with publications and research updates.
+
+[View ResearchGate](https://www.researchgate.net/profile/Augustine-Denteh-2/research)
+:::
+:::

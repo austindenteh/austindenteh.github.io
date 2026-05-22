@@ -37,7 +37,7 @@ Davidson College
 209 Ridge Rd., Chambers 2157  
 Davidson, NC 28035  
 
-[Email](mailto:audenteh@davidson.edu) · [Google Scholar](https://scholar.google.com/citations?hl=en&user=iDrWssAAAAAJ) · [GitHub](https://github.com/austindenteh) · [LinkedIn](https://www.linkedin.com/in/augustinedenteh) · [Davidson](https://www.davidson.edu/people/austin-denteh)
+[Email](mailto:audenteh@davidson.edu) · [Google Scholar](https://scholar.google.com/citations?hl=en&user=iDrWssAAAAAJ) · [ORCID](https://orcid.org/0000-0003-0965-015X) · [GitHub](https://github.com/austindenteh) · [LinkedIn](https://www.linkedin.com/in/augustinedenteh) · [Davidson](https://www.davidson.edu/people/austin-denteh)
 :::
 :::
 :::
@@ -103,5 +103,7 @@ Workshop materials on difference-in-differences with staggered treatment timing.
 Co-founder of [Data Science Network Ghana](https://datasciencenet.org), home of the Ghana Data Science Summit / IndabaX Ghana and a community initiative supporting data science and AI education, workshops, mentorship, and annual convenings in Ghana.
 
 [Visit DSN Ghana](https://datasciencenet.org)
+
+[See selected media and public engagement.](media.qmd)
 :::
 :::

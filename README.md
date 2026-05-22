@@ -22,6 +22,7 @@ The rendered site is written to `_site/`.
 - `research.qmd`: research page
 - `resources.qmd`: resources, code, data, and workshop materials page
 - `teaching.qmd`: teaching page
+- `media.qmd`: media coverage, videos, public engagement, and profile links
 - `blog.qmd`: draft blog page, currently hidden from the rendered site
 - `cv.qmd`: CV page
 - `data/publications.json`: structured publications, working papers, and works in progress

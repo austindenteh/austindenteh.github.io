@@ -6,7 +6,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 SITE = ROOT / "_site"
-PAGES = ["cv", "research", "resources", "teaching"]
+PAGES = ["cv", "research", "resources", "teaching", "media"]
 DISABLED_PAGES = ["talks", "notes", "blog", "code"]
 
 
