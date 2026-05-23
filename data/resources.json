@@ -4,10 +4,10 @@
       "label": "Featured Code & Data",
       "items": [
         {
-          "name": "eco-322-public-data",
-          "title": "ECO 322 Public Data",
-          "url": "https://github.com/austindenteh/eco-322-public-data",
-          "description": "Public data resources connected to Health Economics teaching.",
+          "name": "econ-data-starters",
+          "title": "Econ Data Starters",
+          "url": "https://github.com/austindenteh/econ-data-starters",
+          "description": "Starter code and documentation for public economics datasets in Stata and R.",
           "tags": ["Health Economics", "Data", "Students"]
         }
       ]

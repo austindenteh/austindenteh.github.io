@@ -78,11 +78,11 @@ Methods for estimating treatment effects and program participation when particip
 
 ::: {.feature-grid}
 ::: {.feature-card}
-### ECO 322 Public Data
+### Econ Data Starters
 
-Public data resources connected to Health Economics teaching.
+Starter code and documentation for public economics datasets in Stata and R.
 
-[Repository](https://github.com/austindenteh/eco-322-public-data)
+[Repository](https://github.com/austindenteh/econ-data-starters)
 :::
 
 ::: {.feature-card}
