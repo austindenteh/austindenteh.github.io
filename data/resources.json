@@ -25,8 +25,198 @@
       ]
     },
     {
-      "label": "Public Datasets",
-      "items": []
+      "label": "Data Directories",
+      "items": [
+        {
+          "name": "nber-data",
+          "title": "NBER Research Data",
+          "url": "https://www.nber.org/research/data?page=1&perPage=50",
+          "description": "Research datasets hosted or curated by the National Bureau of Economic Research.",
+          "tags": ["Economics", "Research", "United States"]
+        },
+        {
+          "name": "data-gov",
+          "title": "Data.gov",
+          "url": "https://data.gov",
+          "description": "Search portal for open datasets from U.S. federal, state, local, and tribal governments.",
+          "tags": ["Government", "Open Data", "United States"]
+        },
+        {
+          "name": "harvard-dataverse",
+          "title": "Harvard Dataverse",
+          "url": "https://dataverse.harvard.edu",
+          "description": "Repository for research data across economics, social science, public policy, and other fields.",
+          "tags": ["Research", "Replication", "Archives"]
+        },
+        {
+          "name": "bea",
+          "title": "Bureau of Economic Analysis",
+          "url": "https://bea.gov",
+          "description": "U.S. national, regional, industry, and international economic accounts.",
+          "tags": ["Macroeconomics", "Regional", "United States"]
+        },
+        {
+          "name": "bls",
+          "title": "Bureau of Labor Statistics",
+          "url": "https://www.bls.gov",
+          "description": "U.S. labor market, prices, productivity, workplace safety, and occupational data.",
+          "tags": ["Labor", "Prices", "United States"]
+        },
+        {
+          "name": "economic-report-president",
+          "title": "Economic Report of the President",
+          "url": "https://www.govinfo.gov/app/collection/erp/2026",
+          "description": "Annual Economic Report of the President and related government-published tables.",
+          "tags": ["Macroeconomics", "Policy", "United States"]
+        },
+        {
+          "name": "fred",
+          "title": "FRED",
+          "url": "https://fred.stlouisfed.org",
+          "description": "Federal Reserve Bank of St. Louis database for macroeconomic and financial time series.",
+          "tags": ["Macroeconomics", "Finance", "Time Series"]
+        },
+        {
+          "name": "federal-reserve-research",
+          "title": "Federal Reserve Economic Research",
+          "url": "https://www.federalreserve.gov/econres.htm",
+          "description": "Federal Reserve research, data, surveys, and working papers.",
+          "tags": ["Finance", "Macroeconomics", "Research"]
+        },
+        {
+          "name": "geolytics",
+          "title": "GeoLytics",
+          "url": "https://www.geolytics.com",
+          "description": "Commercial demographic, census, and neighborhood-level data products.",
+          "tags": ["Geography", "Demographics", "Commercial"]
+        },
+        {
+          "name": "ipums-terra",
+          "title": "IPUMS Terra",
+          "url": "https://terra.ipums.org/home",
+          "description": "Integrated population, environmental, and geographic data from IPUMS.",
+          "tags": ["Geography", "Population", "Environment"]
+        },
+        {
+          "name": "nces",
+          "title": "National Center for Education Statistics",
+          "url": "https://nces.ed.gov",
+          "description": "U.S. education data, surveys, assessments, and school-level resources.",
+          "tags": ["Education", "Schools", "United States"]
+        },
+        {
+          "name": "nacjd",
+          "title": "NACJD",
+          "url": "https://www.icpsr.umich.edu/sites/nacjd/home",
+          "description": "National Archive of Criminal Justice Data, hosted by ICPSR.",
+          "tags": ["Crime", "Justice", "Archive"]
+        },
+        {
+          "name": "bjs",
+          "title": "Bureau of Justice Statistics",
+          "url": "https://bjs.ojp.gov",
+          "description": "U.S. crime, courts, corrections, victimization, and justice-system data.",
+          "tags": ["Crime", "Justice", "United States"]
+        },
+        {
+          "name": "county-health-rankings",
+          "title": "County Health Rankings",
+          "url": "https://www.countyhealthrankings.org",
+          "description": "County-level health outcomes, health factors, and contextual measures.",
+          "tags": ["Health", "Counties", "United States"]
+        },
+        {
+          "name": "cdc-wonder",
+          "title": "CDC WONDER",
+          "url": "https://wonder.cdc.gov",
+          "description": "CDC public health data query system, including mortality and population health measures.",
+          "tags": ["Health", "Mortality", "United States"]
+        },
+        {
+          "name": "penn-world-table",
+          "title": "Penn World Table",
+          "url": "https://www.rug.nl/ggdc/productivity/pwt/",
+          "description": "Cross-country data on income, output, productivity, and purchasing power parity.",
+          "tags": ["Macroeconomics", "International", "Growth"]
+        },
+        {
+          "name": "world-bank-open-data",
+          "title": "World Bank Open Data",
+          "url": "https://data.worldbank.org",
+          "description": "Country-level indicators on development, poverty, health, education, and macroeconomic outcomes.",
+          "tags": ["Development", "International", "Indicators"]
+        },
+        {
+          "name": "world-bank-microdata",
+          "title": "World Bank Microdata Library",
+          "url": "https://microdata.worldbank.org/index.php/home",
+          "description": "Household surveys, firm surveys, and other microdata from World Bank-supported projects.",
+          "tags": ["Development", "Microdata", "Surveys"]
+        },
+        {
+          "name": "ipums-international",
+          "title": "IPUMS International",
+          "url": "https://international.ipums.org/international/",
+          "description": "Harmonized international census microdata for demographic and economic research.",
+          "tags": ["Population", "Microdata", "International"]
+        },
+        {
+          "name": "development-economics-data",
+          "title": "Development Economics Data",
+          "url": "https://sites.google.com/site/medevecon/devecondata?authuser=0",
+          "description": "Curated links to development economics datasets and data resources.",
+          "tags": ["Development", "Economics", "Curated"]
+        },
+        {
+          "name": "development-economics-data-blog",
+          "title": "Development Economics Data Blog",
+          "url": "https://devecondata.blogspot.com",
+          "description": "Blog-style collection of development economics data sources and updates.",
+          "tags": ["Development", "Economics", "Curated"]
+        },
+        {
+          "name": "wiid",
+          "title": "WIID",
+          "url": "https://www.wider.unu.edu/project/wiid-world-income-inequality-database",
+          "description": "World Income Inequality Database from UNU-WIDER.",
+          "tags": ["Inequality", "International", "Income"]
+        },
+        {
+          "name": "opportunity-insights",
+          "title": "Opportunity Insights Data Library",
+          "url": "https://opportunityinsights.org/data/",
+          "description": "Data products on economic mobility, neighborhoods, education, labor markets, and inequality.",
+          "tags": ["Mobility", "Inequality", "United States"]
+        },
+        {
+          "name": "world-inequality-database",
+          "title": "World Inequality Database",
+          "url": "https://wid.world",
+          "description": "International data on income and wealth inequality.",
+          "tags": ["Inequality", "Income", "Wealth"]
+        },
+        {
+          "name": "state-local-finance",
+          "title": "State and Local Finance Data",
+          "url": "https://state-local-finance-data.taxpolicycenter.org/pages.cfm",
+          "description": "State and local government finance data from the Urban-Brookings Tax Policy Center.",
+          "tags": ["Public Finance", "State", "Local"]
+        },
+        {
+          "name": "otpr",
+          "title": "Office of Tax Policy Research",
+          "url": "https://www.bus.umich.edu/otpr/otpr/default.asp",
+          "description": "Tax policy research resources from the University of Michigan.",
+          "tags": ["Tax", "Public Finance", "Research"]
+        },
+        {
+          "name": "economic-journal-data",
+          "title": "Economic Journal Data Archive",
+          "url": "https://ejd.econ.mathematik.uni-ulm.de",
+          "description": "Replication data and supplementary materials associated with economics journal articles.",
+          "tags": ["Replication", "Research", "Archive"]
+        }
+      ]
     },
     {
       "label": "Research Tools",
