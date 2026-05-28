@@ -20,6 +20,7 @@ website:
   title: "Augustine Denteh"
   site-url: "https://austindenteh.com"
   description: "Assistant Professor of Economics at Davidson College. Health economics, applied econometrics, and causal inference."
+  search: false
   navbar:
     pinned: true
     right:
@@ -54,9 +55,9 @@ format:
     theme: cosmo
     css: styles.css
     toc: false
-    smooth-scroll: true
+    smooth-scroll: false
     link-external-newwindow: true
-    anchor-sections: true
+    anchor-sections: false
 
 execute:
   freeze: auto

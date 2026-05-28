@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+import re
 import shutil
 from pathlib import Path
 
@@ -8,6 +9,11 @@ ROOT = Path(__file__).resolve().parents[1]
 SITE = ROOT / "_site"
 PAGES = ["cv", "research", "resources", "teaching", "media"]
 DISABLED_PAGES = ["talks", "notes", "blog", "code"]
+BOOTSTRAP_ICONS_LINK_RE = re.compile(
+    r'^\s*<link href="[^"]*site_libs/bootstrap/bootstrap-icons\.css" rel="stylesheet">\s*\n?',
+    re.MULTILINE,
+)
+BOOTSTRAP_ICON_CLASS_RE = re.compile(r'class="[^"]*\bbi\b')
 
 
 def rewrite_for_directory_page(html_text):
@@ -51,11 +57,26 @@ def remove_disabled_pages():
             shutil.rmtree(page_dir)
 
 
+def strip_unused_bootstrap_icons():
+    html_files = list(SITE.rglob("*.html"))
+    if any(BOOTSTRAP_ICON_CLASS_RE.search(path.read_text()) for path in html_files):
+        return
+
+    for path in html_files:
+        text = path.read_text()
+        path.write_text(BOOTSTRAP_ICONS_LINK_RE.sub("", text))
+
+    bootstrap_dir = SITE / "site_libs" / "bootstrap"
+    for asset in bootstrap_dir.glob("bootstrap-icons.*"):
+        asset.unlink()
+
+
 def main():
     if not SITE.exists():
         return
     copy_extensionless_pages()
     remove_disabled_pages()
+    strip_unused_bootstrap_icons()
     (SITE / ".nojekyll").write_text("")
 
 
