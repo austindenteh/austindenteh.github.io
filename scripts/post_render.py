@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+import hashlib
 import re
 import shutil
 from pathlib import Path
@@ -71,12 +72,30 @@ def strip_unused_bootstrap_icons():
         asset.unlink()
 
 
+def fingerprint_custom_css():
+    css_file = SITE / "styles.css"
+    if not css_file.exists():
+        return
+
+    digest = hashlib.sha256(css_file.read_bytes()).hexdigest()[:12]
+    fingerprinted_name = f"styles-{digest}.css"
+    fingerprinted_file = SITE / fingerprinted_name
+    shutil.copy2(css_file, fingerprinted_file)
+
+    for path in SITE.rglob("*.html"):
+        text = path.read_text()
+        text = text.replace('href="styles.css"', f'href="{fingerprinted_name}"')
+        text = text.replace('href="../styles.css"', f'href="../{fingerprinted_name}"')
+        path.write_text(text)
+
+
 def main():
     if not SITE.exists():
         return
     copy_extensionless_pages()
     remove_disabled_pages()
     strip_unused_bootstrap_icons()
+    fingerprint_custom_css()
     (SITE / ".nojekyll").write_text("")
 
 
