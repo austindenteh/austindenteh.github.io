@@ -1,4 +1,4 @@
-## Featured Code &amp; Data
+## Featured Resources
 
 <div class="repo-grid">
 
@@ -8,12 +8,6 @@
   <div class="tag-row"><span>Health Economics</span> <span>Data</span> <span>Students</span></div>
   <a class="text-link" href="https://github.com/austindenteh/econ-data-starters">View resource</a>
 </article>
-
-</div>
-
-## Workshops &amp; Methods
-
-<div class="repo-grid">
 
 <article class="repo-card">
   <h3><a href="https://github.com/austindenteh/staggered-did-workshop">Staggered DiD Workshop</a></h3>

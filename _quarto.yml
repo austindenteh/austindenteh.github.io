@@ -10,7 +10,6 @@ project:
   resources:
     - robots.txt
     - assets/cv/CV_denteh.pdf
-    - assets/cv/CV_denteh.tex
     - assets/img
     - assets/papers
     - CNAME

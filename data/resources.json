@@ -1,7 +1,7 @@
 {
   "groups": [
     {
-      "label": "Featured Code & Data",
+      "label": "Featured Resources",
       "items": [
         {
           "name": "econ-data-starters",
@@ -9,12 +9,7 @@
           "url": "https://github.com/austindenteh/econ-data-starters",
           "description": "Starter code and documentation for public economics datasets in Stata and R.",
           "tags": ["Health Economics", "Data", "Students"]
-        }
-      ]
-    },
-    {
-      "label": "Workshops & Methods",
-      "items": [
+        },
         {
           "name": "staggered-did-workshop",
           "title": "Staggered DiD Workshop",

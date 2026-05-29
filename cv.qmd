@@ -4,7 +4,6 @@ title: "CV"
 
 ::: {.button-row}
 [Download CV](assets/cv/CV_denteh.pdf){.button .primary}
-[View LaTeX Source](assets/cv/CV_denteh.tex){.button}
 :::
 
 ## Current Position
