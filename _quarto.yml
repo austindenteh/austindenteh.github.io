@@ -11,7 +11,7 @@ project:
     - robots.txt
     - assets/cv/CV_denteh.pdf
     - assets/cv/CV_denteh.tex
-    - assets/img/headshot.jpg
+    - assets/img
     - assets/papers
     - CNAME
     - wp-content

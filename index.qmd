@@ -27,7 +27,7 @@ I am an assistant professor in the Department of Economics at Davidson College. 
 :::
 
 ::: {.home-photo}
-<img src="assets/img/headshot.jpg" alt="Augustine Denteh" width="1200" height="1200" fetchpriority="high" decoding="async">
+<img src="assets/img/headshot-720.jpg" alt="Augustine Denteh" width="720" height="720" fetchpriority="high" decoding="async">
 
 ::: {.profile-contact}
 ### Contact
