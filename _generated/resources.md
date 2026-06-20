@@ -16,6 +16,13 @@
   <a class="text-link" href="https://github.com/austindenteh/staggered-did-workshop">View resource</a>
 </article>
 
+<article class="repo-card">
+  <h3><a href="https://github.com/Ghana-Data-Science-Summit-IndabaX-Ghana/IndabaX-2026/tree/main/Synthetic%20Data%20Generation%20for%20Economic%20Policymaking">Synthetic Data for Economic Policymaking</a></h3>
+  <p>Workshop tutorial on synthetic data generation for economics and policy applications, prepared for IndabaX Ghana 2026.</p>
+  <div class="tag-row"><span>Synthetic Data</span> <span>Economic Policy</span> <span>Workshop</span></div>
+  <a class="text-link" href="https://github.com/Ghana-Data-Science-Summit-IndabaX-Ghana/IndabaX-2026/tree/main/Synthetic%20Data%20Generation%20for%20Economic%20Policymaking">View resource</a>
+</article>
+
 </div>
 
 ## Data Directories

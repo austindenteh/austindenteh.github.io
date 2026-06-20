@@ -16,6 +16,13 @@
           "url": "https://github.com/austindenteh/staggered-did-workshop",
           "description": "Workshop materials on difference-in-differences with staggered treatment timing.",
           "tags": ["Causal Inference", "Difference-in-Differences", "Workshop"]
+        },
+        {
+          "name": "synthetic-data-economic-policymaking",
+          "title": "Synthetic Data for Economic Policymaking",
+          "url": "https://github.com/Ghana-Data-Science-Summit-IndabaX-Ghana/IndabaX-2026/tree/main/Synthetic%20Data%20Generation%20for%20Economic%20Policymaking",
+          "description": "Workshop tutorial on synthetic data generation for economics and policy applications, prepared for IndabaX Ghana 2026.",
+          "tags": ["Synthetic Data", "Economic Policy", "Workshop"]
         }
       ]
     },

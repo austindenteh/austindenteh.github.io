@@ -92,6 +92,14 @@ Workshop materials on difference-in-differences with staggered treatment timing.
 
 [Repository](https://github.com/austindenteh/staggered-did-workshop)
 :::
+
+::: {.feature-card}
+### Synthetic Data for Economic Policymaking
+
+Workshop tutorial on synthetic data generation for economics and policy applications, prepared for IndabaX Ghana 2026.
+
+[Repository](https://github.com/Ghana-Data-Science-Summit-IndabaX-Ghana/IndabaX-2026/tree/main/Synthetic%20Data%20Generation%20for%20Economic%20Policymaking)
+:::
 :::
 
 ## Community & Leadership
