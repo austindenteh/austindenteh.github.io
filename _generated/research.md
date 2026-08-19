@@ -78,17 +78,17 @@
 <div class="publication-list">
 
 <article class="publication-item">
+  <h3>Misclassification in Difference-in-Differences Models</h3>
+  <p class="pub-authors">Augustine Denteh and <a href="https://sites.google.com/site/desirekedagni/">Desire Kedagni</a></p>
+  <p class="pub-meta">2022 | Revise and resubmit, Econometric Reviews</p>
+  <div class="link-row"><a class="pill-link" href="https://arxiv.org/abs/2207.11890">arXiv</a></div>
+</article>
+
+<article class="publication-item">
   <h3>Immigration Enforcement and Hispanic Identity</h3>
   <p class="pub-authors"><a href="https://hussainhadah.com/">Hussain Hadah</a> and Augustine Denteh</p>
   <p class="pub-meta">2026 | Working paper</p>
   <div class="link-row"><a class="pill-link" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6226541">SSRN</a></div>
-</article>
-
-<article class="publication-item">
-  <h3>On the Estimation of Program Participation with Partial Validation</h3>
-  <p class="pub-authors">Augustine Denteh and <a href="https://www.nguimkeu.com/">Pierre Nguimkeu</a></p>
-  <p class="pub-meta">2025 | Working paper</p>
-  <div class="link-row"><a class="pill-link" href="https://arxiv.org/abs/2512.14616">arXiv</a></div>
 </article>
 
 <article class="publication-item">
@@ -98,10 +98,10 @@
 </article>
 
 <article class="publication-item">
-  <h3>Misclassification in Difference-in-Differences Models</h3>
-  <p class="pub-authors">Augustine Denteh and <a href="https://sites.google.com/site/desirekedagni/">Desire Kedagni</a></p>
-  <p class="pub-meta">2022 | Revise and resubmit, Econometric Reviews</p>
-  <div class="link-row"><a class="pill-link" href="https://arxiv.org/abs/2207.11890">arXiv</a></div>
+  <h3>On the Estimation of Program Participation with Partial Validation</h3>
+  <p class="pub-authors">Augustine Denteh and <a href="https://www.nguimkeu.com/">Pierre Nguimkeu</a></p>
+  <p class="pub-meta">2025 | Working paper</p>
+  <div class="link-row"><a class="pill-link" href="https://arxiv.org/abs/2512.14616">arXiv</a></div>
 </article>
 
 <article class="publication-item">

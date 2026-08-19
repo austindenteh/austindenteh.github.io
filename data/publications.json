@@ -131,6 +131,18 @@
       "label": "Working Papers",
       "items": [
         {
+          "title": "Misclassification in Difference-in-Differences Models",
+          "authors": [
+            {"name": "Augustine Denteh"},
+            {"name": "Desire Kedagni", "url": "https://sites.google.com/site/desirekedagni/"}
+          ],
+          "year": "2022",
+          "venue": "Revise and resubmit, Econometric Reviews",
+          "links": [
+            {"label": "arXiv", "url": "https://arxiv.org/abs/2207.11890"}
+          ]
+        },
+        {
           "title": "Immigration Enforcement and Hispanic Identity",
           "authors": [
             {"name": "Hussain Hadah", "url": "https://hussainhadah.com/"},
@@ -140,18 +152,6 @@
           "venue": "Working paper",
           "links": [
             {"label": "SSRN", "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6226541"}
-          ]
-        },
-        {
-          "title": "On the Estimation of Program Participation with Partial Validation",
-          "authors": [
-            {"name": "Augustine Denteh"},
-            {"name": "Pierre Nguimkeu", "url": "https://www.nguimkeu.com/"}
-          ],
-          "year": "2025",
-          "venue": "Working paper",
-          "links": [
-            {"label": "arXiv", "url": "https://arxiv.org/abs/2512.14616"}
           ]
         },
         {
@@ -165,15 +165,15 @@
           "venue": "Working paper"
         },
         {
-          "title": "Misclassification in Difference-in-Differences Models",
+          "title": "On the Estimation of Program Participation with Partial Validation",
           "authors": [
             {"name": "Augustine Denteh"},
-            {"name": "Desire Kedagni", "url": "https://sites.google.com/site/desirekedagni/"}
+            {"name": "Pierre Nguimkeu", "url": "https://www.nguimkeu.com/"}
           ],
-          "year": "2022",
-          "venue": "Revise and resubmit, Econometric Reviews",
+          "year": "2025",
+          "venue": "Working paper",
           "links": [
-            {"label": "arXiv", "url": "https://arxiv.org/abs/2207.11890"}
+            {"label": "arXiv", "url": "https://arxiv.org/abs/2512.14616"}
           ]
         },
         {
