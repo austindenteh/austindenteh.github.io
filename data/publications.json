@@ -4,6 +4,24 @@
       "label": "Publications",
       "items": [
         {
+          "title": "The Intergenerational Effect of the Food Stamp Program on Marriage and Fertility",
+          "authors": [
+            {"name": "Augustine Denteh"},
+            {"name": "Nicardo McInnis", "url": "https://www.mathematica.org/staff/nicardo-mcinnis"}
+          ],
+          "year": "Forthcoming",
+          "venue": "Journal of Population Economics"
+        },
+        {
+          "title": "The Effect of SNAP Purchasing Power on Diet Quality",
+          "authors": [
+            {"name": "Farah Khan", "url": "https://www.brookings.edu/people/farah-khan/"},
+            {"name": "Augustine Denteh"}
+          ],
+          "year": "Forthcoming",
+          "venue": "Applied Economic Perspectives and Policy"
+        },
+        {
           "title": "Who Increases Emergency Department Use? New Insights from the Oregon Health Insurance Experiment",
           "authors": [
             {"name": "Augustine Denteh"},
@@ -137,22 +155,14 @@
           ]
         },
         {
-          "title": "The Intergenerational Effect of the Food Stamp Program on Marriage and Fertility",
+          "title": "Immigration Enforcement and Child Health",
           "authors": [
             {"name": "Augustine Denteh"},
-            {"name": "Nicardo McInnis", "url": "https://www.mathematica.org/staff/nicardo-mcinnis"}
+            {"name": "Makayla Lavender", "url": "https://www.makaylalavender.com/"},
+            {"name": "Prithvijit Mukherjee", "url": "https://sites.google.com/view/prithvijitmukherjee/home"}
           ],
-          "year": "2023",
-          "venue": "Revise and resubmit, Journal of Population Economics"
-        },
-        {
-          "title": "The Effect of SNAP Purchasing Power on Nutrition",
-          "authors": [
-            {"name": "Farah Khan", "url": "https://www.brookings.edu/people/farah-khan/"},
-            {"name": "Augustine Denteh"}
-          ],
-          "year": "2025",
-          "venue": "Revise and resubmit, Applied Economic Perspectives and Policy"
+          "year": "2026",
+          "venue": "Working paper"
         },
         {
           "title": "Misclassification in Difference-in-Differences Models",
@@ -161,7 +171,7 @@
             {"name": "Desire Kedagni", "url": "https://sites.google.com/site/desirekedagni/"}
           ],
           "year": "2022",
-          "venue": "Working paper",
+          "venue": "Revise and resubmit, Econometric Reviews",
           "links": [
             {"label": "arXiv", "url": "https://arxiv.org/abs/2207.11890"}
           ]
@@ -186,14 +196,6 @@
             {"name": "Augustine Denteh"},
             {"name": "Zhengrun Chen"},
             {"name": "Desire Kedagni", "url": "https://sites.google.com/site/desirekedagni/"}
-          ]
-        },
-        {
-          "title": "Immigration Enforcement and Child Health",
-          "authors": [
-            {"name": "Augustine Denteh"},
-            {"name": "Makayla Lavender", "url": "https://www.makaylalavender.com/"},
-            {"name": "Prithvijit Mukherjee", "url": "https://sites.google.com/view/prithvijitmukherjee/home"}
           ]
         },
         {

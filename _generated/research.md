@@ -3,6 +3,18 @@
 <div class="publication-list">
 
 <article class="publication-item">
+  <h3>The Intergenerational Effect of the Food Stamp Program on Marriage and Fertility</h3>
+  <p class="pub-authors">Augustine Denteh and <a href="https://www.mathematica.org/staff/nicardo-mcinnis">Nicardo McInnis</a></p>
+  <p class="pub-meta">Forthcoming | Journal of Population Economics</p>
+</article>
+
+<article class="publication-item">
+  <h3>The Effect of SNAP Purchasing Power on Diet Quality</h3>
+  <p class="pub-authors"><a href="https://www.brookings.edu/people/farah-khan/">Farah Khan</a> and Augustine Denteh</p>
+  <p class="pub-meta">Forthcoming | Applied Economic Perspectives and Policy</p>
+</article>
+
+<article class="publication-item">
   <h3>Who Increases Emergency Department Use? New Insights from the Oregon Health Insurance Experiment</h3>
   <p class="pub-authors">Augustine Denteh and <a href="https://hliebert.github.io/about/">Helge Liebert</a></p>
   <p class="pub-meta">2025 | Journal of the Royal Statistical Society Series A: Statistics in Society</p>
@@ -80,21 +92,15 @@
 </article>
 
 <article class="publication-item">
-  <h3>The Intergenerational Effect of the Food Stamp Program on Marriage and Fertility</h3>
-  <p class="pub-authors">Augustine Denteh and <a href="https://www.mathematica.org/staff/nicardo-mcinnis">Nicardo McInnis</a></p>
-  <p class="pub-meta">2023 | Revise and resubmit, Journal of Population Economics</p>
-</article>
-
-<article class="publication-item">
-  <h3>The Effect of SNAP Purchasing Power on Nutrition</h3>
-  <p class="pub-authors"><a href="https://www.brookings.edu/people/farah-khan/">Farah Khan</a> and Augustine Denteh</p>
-  <p class="pub-meta">2025 | Revise and resubmit, Applied Economic Perspectives and Policy</p>
+  <h3>Immigration Enforcement and Child Health</h3>
+  <p class="pub-authors">Augustine Denteh, <a href="https://www.makaylalavender.com/">Makayla Lavender</a>, and <a href="https://sites.google.com/view/prithvijitmukherjee/home">Prithvijit Mukherjee</a></p>
+  <p class="pub-meta">2026 | Working paper</p>
 </article>
 
 <article class="publication-item">
   <h3>Misclassification in Difference-in-Differences Models</h3>
   <p class="pub-authors">Augustine Denteh and <a href="https://sites.google.com/site/desirekedagni/">Desire Kedagni</a></p>
-  <p class="pub-meta">2022 | Working paper</p>
+  <p class="pub-meta">2022 | Revise and resubmit, Econometric Reviews</p>
   <div class="link-row"><a class="pill-link" href="https://arxiv.org/abs/2207.11890">arXiv</a></div>
 </article>
 
@@ -114,11 +120,6 @@
 <article class="publication-item">
   <h3>Anticipation Effects in Difference-in-Differences Models</h3>
   <p class="pub-authors">Augustine Denteh, Zhengrun Chen, and <a href="https://sites.google.com/site/desirekedagni/">Desire Kedagni</a></p>
-</article>
-
-<article class="publication-item">
-  <h3>Immigration Enforcement and Child Health</h3>
-  <p class="pub-authors">Augustine Denteh, <a href="https://www.makaylalavender.com/">Makayla Lavender</a>, and <a href="https://sites.google.com/view/prithvijitmukherjee/home">Prithvijit Mukherjee</a></p>
 </article>
 
 <article class="publication-item">
