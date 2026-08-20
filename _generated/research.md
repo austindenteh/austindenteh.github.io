@@ -5,7 +5,8 @@
 <article class="publication-item">
   <h3>The Intergenerational Effect of the Food Stamp Program on Marriage and Fertility</h3>
   <p class="pub-authors">Augustine Denteh and <a href="https://www.mathematica.org/staff/nicardo-mcinnis">Nicardo McInnis</a></p>
-  <p class="pub-meta">Forthcoming | <strong class="pub-journal">Journal of Population Economics</strong></p>
+  <p class="pub-meta">2026 | <strong class="pub-journal">Journal of Population Economics</strong>, 39(3), Article 52</p>
+  <div class="link-row"><a class="pill-link" href="https://doi.org/10.1007/s00148-026-01198-4">DOI</a></div>
 </article>
 
 <article class="publication-item">

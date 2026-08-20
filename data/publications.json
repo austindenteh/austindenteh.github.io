@@ -9,9 +9,12 @@
             {"name": "Augustine Denteh"},
             {"name": "Nicardo McInnis", "url": "https://www.mathematica.org/staff/nicardo-mcinnis"}
           ],
-          "year": "Forthcoming",
-          "venue": "Journal of Population Economics",
-          "journal": "Journal of Population Economics"
+          "year": "2026",
+          "venue": "Journal of Population Economics, 39(3), Article 52",
+          "journal": "Journal of Population Economics",
+          "links": [
+            {"label": "DOI", "url": "https://doi.org/10.1007/s00148-026-01198-4"}
+          ]
         },
         {
           "title": "The Effect of SNAP Purchasing Power on Diet Quality",
