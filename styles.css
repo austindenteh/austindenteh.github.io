@@ -228,6 +228,10 @@ h2 {
   font-size: 0.96rem;
 }
 
+.pub-journal {
+  font-weight: 700;
+}
+
 .link-row,
 .tag-row {
   display: flex;

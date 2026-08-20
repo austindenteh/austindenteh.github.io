@@ -10,7 +10,8 @@
             {"name": "Nicardo McInnis", "url": "https://www.mathematica.org/staff/nicardo-mcinnis"}
           ],
           "year": "Forthcoming",
-          "venue": "Journal of Population Economics"
+          "venue": "Journal of Population Economics",
+          "journal": "Journal of Population Economics"
         },
         {
           "title": "The Effect of SNAP Purchasing Power on Diet Quality",
@@ -19,7 +20,8 @@
             {"name": "Augustine Denteh"}
           ],
           "year": "Forthcoming",
-          "venue": "Applied Economic Perspectives and Policy"
+          "venue": "Applied Economic Perspectives and Policy",
+          "journal": "Applied Economic Perspectives and Policy"
         },
         {
           "title": "Who Increases Emergency Department Use? New Insights from the Oregon Health Insurance Experiment",
@@ -29,6 +31,7 @@
           ],
           "year": "2025",
           "venue": "Journal of the Royal Statistical Society Series A: Statistics in Society",
+          "journal": "Journal of the Royal Statistical Society Series A: Statistics in Society",
           "links": [
             {"label": "PDF", "url": "assets/papers/qnaf114.pdf"},
             {"label": "DOI", "url": "https://doi.org/10.1093/jrsssa/qnaf114"},
@@ -44,6 +47,7 @@
           ],
           "year": "2024",
           "venue": "The World Bank Economic Review, 39(4), 993-1017",
+          "journal": "The World Bank Economic Review",
           "links": [
             {"label": "PDF", "url": "assets/papers/Denteh_Asare_Senadza_WBER.pdf"},
             {"label": "DOI", "url": "https://doi.org/10.1093/wber/lhae046"}
@@ -60,6 +64,7 @@
           ],
           "year": "2022",
           "venue": "Applied Economic Perspectives and Policy, 44(2), 591-608",
+          "journal": "Applied Economic Perspectives and Policy",
           "links": [
             {"label": "PDF", "url": "assets/papers/Applied-Eco-Perspectives-Pol-2022-Jones.pdf"},
             {"label": "DOI", "url": "https://doi.org/10.1002/aepp.13231"}
@@ -78,6 +83,7 @@
           ],
           "year": "2021",
           "venue": "The Journal of Economic Education, 52(4), 286-295",
+          "journal": "The Journal of Economic Education",
           "links": [
             {"label": "PDF", "url": "assets/papers/Teaching_controversial_topics.pdf"},
             {"label": "DOI", "url": "https://doi.org/10.1080/00220485.2021.1963373"}
@@ -92,6 +98,7 @@
           ],
           "year": "2019",
           "venue": "Southern Economic Journal, 86(1), 202-228",
+          "journal": "Southern Economic Journal",
           "links": [
             {"label": "PDF", "url": "assets/papers/estimating_the_associations_2019.pdf"},
             {"label": "DOI", "url": "https://doi.org/10.1002/soej.12364"}
@@ -106,6 +113,7 @@
           ],
           "year": "2019",
           "venue": "Journal of Econometrics, 208(2), 487-506",
+          "journal": "Journal of Econometrics",
           "links": [
             {"label": "PDF", "url": "assets/papers/JoE2019.pdf"},
             {"label": "DOI", "url": "https://doi.org/10.1016/j.jeconom.2018.10.005"}
@@ -120,6 +128,7 @@
           ],
           "year": "2019",
           "venue": "Empirical Economics, 56(6), 2185-2224",
+          "journal": "Empirical Economics",
           "links": [
             {"label": "PDF", "url": "assets/papers/Denteh2018_Article_TheOriginsOfEarlyChildhoodAnth.pdf"},
             {"label": "DOI", "url": "https://doi.org/10.1007/s00181-018-1421-z"}
@@ -138,6 +147,7 @@
           ],
           "year": "2022",
           "venue": "Revise and resubmit, Econometric Reviews",
+          "journal": "Econometric Reviews",
           "links": [
             {"label": "arXiv", "url": "https://arxiv.org/abs/2207.11890"}
           ]

@@ -44,6 +44,25 @@ def render_authors(authors):
     return f'{", ".join(rendered[:-1])}, and {rendered[-1]}'
 
 
+def render_venue(item):
+    venue = item.get("venue", "")
+    if not venue:
+        return ""
+
+    journal = item.get("journal")
+    if not journal:
+        return html.escape(venue)
+
+    prefix, separator, suffix = venue.partition(journal)
+    if not separator:
+        raise ValueError(f'Journal "{journal}" is not present in venue "{venue}"')
+    return (
+        f'{html.escape(prefix)}'
+        f'<strong class="pub-journal">{html.escape(journal)}</strong>'
+        f'{html.escape(suffix)}'
+    )
+
+
 def render_publications():
     data = json.loads((ROOT / "data" / "publications.json").read_text())
     sections = []
@@ -54,7 +73,7 @@ def render_publications():
             title = html.escape(item["title"])
             authors = render_authors(item.get("authors", ""))
             year = html.escape(item.get("year", ""))
-            venue = html.escape(item.get("venue", ""))
+            venue = render_venue(item)
             links = link_list(item.get("links", []))
             meta_bits = [bit for bit in [year, venue] if bit]
             meta = " | ".join(meta_bits)
