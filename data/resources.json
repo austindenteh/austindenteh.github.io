@@ -27,6 +27,18 @@
       ]
     },
     {
+      "label": "Research Tools",
+      "items": [
+        {
+          "name": "econexpert",
+          "title": "EconExpert",
+          "url": "https://findeconexpert.com",
+          "description": "A public discovery tool for finding economists by research topic, method, paper, or policy question using source-verified research evidence.",
+          "tags": ["Economists", "Research Discovery", "Public Tool"]
+        }
+      ]
+    },
+    {
       "label": "Data Directories",
       "items": [
         {
@@ -219,10 +231,6 @@
           "tags": ["Replication", "Research", "Archive"]
         }
       ]
-    },
-    {
-      "label": "Research Tools",
-      "items": []
     },
     {
       "label": "Student Resources",

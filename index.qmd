@@ -74,6 +74,20 @@ Methods for estimating treatment effects and program participation when particip
 :::
 :::
 
+## Projects
+
+::: {.feature-grid}
+::: {.feature-card}
+### EconExpert
+
+A public discovery tool for finding economists by research topic, method, paper, or policy question using source-verified research evidence.
+
+[Try EconExpert](https://findeconexpert.com)
+
+[Read the launch announcement](https://www.linkedin.com/posts/augustinedenteh_econexpert-activity-7507537168890880000-67DV)
+:::
+:::
+
 ## Featured Resources
 
 ::: {.feature-grid}

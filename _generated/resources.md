@@ -25,6 +25,19 @@
 
 </div>
 
+## Research Tools
+
+<div class="repo-grid">
+
+<article class="repo-card">
+  <h3><a href="https://findeconexpert.com">EconExpert</a></h3>
+  <p>A public discovery tool for finding economists by research topic, method, paper, or policy question using source-verified research evidence.</p>
+  <div class="tag-row"><span>Economists</span> <span>Research Discovery</span> <span>Public Tool</span></div>
+  <a class="text-link" href="https://findeconexpert.com">View resource</a>
+</article>
+
+</div>
+
 ## Data Directories
 
 <div class="repo-grid">
