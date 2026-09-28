@@ -12,7 +12,8 @@
 <article class="publication-item">
   <h3>The Effect of SNAP Purchasing Power on Diet Quality</h3>
   <p class="pub-authors"><a href="https://www.brookings.edu/people/farah-khan/">Farah Khan</a> and Augustine Denteh</p>
-  <p class="pub-meta">Forthcoming | <strong class="pub-journal">Applied Economic Perspectives and Policy</strong></p>
+  <p class="pub-meta">2026 | <strong class="pub-journal">Applied Economic Perspectives and Policy</strong></p>
+  <div class="link-row"><a class="pill-link" href="https://doi.org/10.1002/aepp.70125">DOI</a></div>
 </article>
 
 <article class="publication-item">

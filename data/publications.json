@@ -22,9 +22,12 @@
             {"name": "Farah Khan", "url": "https://www.brookings.edu/people/farah-khan/"},
             {"name": "Augustine Denteh"}
           ],
-          "year": "Forthcoming",
+          "year": "2026",
           "venue": "Applied Economic Perspectives and Policy",
-          "journal": "Applied Economic Perspectives and Policy"
+          "journal": "Applied Economic Perspectives and Policy",
+          "links": [
+            {"label": "DOI", "url": "https://doi.org/10.1002/aepp.70125"}
+          ]
         },
         {
           "title": "Who Increases Emergency Department Use? New Insights from the Oregon Health Insurance Experiment",
