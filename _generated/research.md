@@ -130,6 +130,11 @@
 </article>
 
 <article class="publication-item">
+  <h3>Teaching Heterogeneity in Economics with Process Oriented Guided Inquiry Learning</h3>
+  <p class="pub-authors">Augustine Denteh and Caleb Stroup</p>
+</article>
+
+<article class="publication-item">
   <h3>Teacher Coaching, Educational Triage, and Student Achievement: Evidence from a Mathematics Intervention in Jamaica</h3>
   <p class="pub-authors"><a href="https://sites.google.com/view/wrightecon">Nicholas N. Wright</a>, Augustine Denteh, and Patrice Anderson</p>
 </article>
