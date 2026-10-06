@@ -66,25 +66,48 @@ def render_venue(item):
 def render_publications():
     data = json.loads((ROOT / "data" / "publications.json").read_text())
     sections = []
-    for group in data["groups"]:
+    for group_index, group in enumerate(data["groups"], start=1):
         sections.append(f'## {html.escape(group["label"])}\n')
         sections.append('<div class="publication-list">\n')
-        for item in group["items"]:
+        for item_index, item in enumerate(group["items"], start=1):
             title = html.escape(item["title"])
             authors = render_authors(item.get("authors", ""))
             year = html.escape(item.get("year", ""))
             venue = render_venue(item)
             links = link_list(item.get("links", []))
+            abstract = item.get("abstract")
             meta_bits = [bit for bit in [year, venue] if bit]
             meta = " | ".join(meta_bits)
             meta_html = f'  <p class="pub-meta">{meta}</p>\n' if meta else ""
-            links_html = f'  <div class="link-row">{links}</div>\n' if links else ""
+            actions = []
+            abstract_html = ""
+            if abstract:
+                abstract_id = f"abstract-{group_index}-{item_index}"
+                actions.append(
+                    '<button class="pill-link abstract-toggle" type="button" '
+                    f'aria-expanded="false" aria-controls="{abstract_id}">Abstract</button>'
+                )
+                abstract_html = (
+                    f'<div class="abstract-panel" id="{abstract_id}" hidden>\n'
+                    f'<p><span class="abstract-label">Abstract.</span> '
+                    f'{html.escape(abstract)}</p>\n'
+                    '</div>\n'
+                )
+            if links:
+                actions.append(links)
+            actions_markup = "\n".join(actions)
+            actions_html = (
+                f'  <div class="link-row">{actions_markup}</div>\n'
+                if actions
+                else ""
+            )
             sections.append(
                 '<article class="publication-item">\n'
                 f'  <h3>{title}</h3>\n'
                 f'  <p class="pub-authors">{authors}</p>\n'
                 f'{meta_html}'
-                f'{links_html}'
+                f'{actions_html}'
+                f'{abstract_html}'
                 '</article>\n'
             )
         sections.append("</div>\n")

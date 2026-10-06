@@ -11,6 +11,7 @@ project:
     - robots.txt
     - assets/cv/CV_denteh.pdf
     - assets/img
+    - assets/js
     - assets/papers
     - CNAME
     - wp-content
@@ -46,6 +47,8 @@ website:
         href: https://orcid.org/0000-0003-0965-015X
       - text: LinkedIn
         href: https://www.linkedin.com/in/augustinedenteh
+      - text: YouTube
+        href: https://www.youtube.com/@AustinDenteh1
       - text: Davidson
         href: https://www.davidson.edu/people/austin-denteh
 

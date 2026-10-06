@@ -60,4 +60,12 @@ ResearchGate profile with publications and research updates.
 
 [View ResearchGate](https://www.researchgate.net/profile/Augustine-Denteh-2/research)
 :::
+
+::: {.feature-card}
+### YouTube
+
+Videos, recorded presentations, and tutorials.
+
+[Visit channel](https://www.youtube.com/@AustinDenteh1)
+:::
 :::

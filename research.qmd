@@ -3,3 +3,5 @@ title: "Research"
 ---
 
 {{< include _generated/research.md >}}
+
+<script src="assets/js/research.js"></script>

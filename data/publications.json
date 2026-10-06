@@ -12,6 +12,8 @@
           "year": "2026",
           "venue": "Journal of Population Economics, 39(3), Article 52",
           "journal": "Journal of Population Economics",
+          "abstract": "This paper examines the intergenerational effects of the Food Stamp Program (FSP) on fertility and marriage in the United States. Using the Panel Study of Income Dynamics, we leverage the initial roll-out of the Food Stamp Program in the 1960s and 1970s to examine the future family formation decisions of individuals born between 1955 and 1981. The results suggest that exposure to the program has different effects on fertility and marriage based on age and gender. For men, increased exposure to the program reduces fertility at older ages, particularly for those from disadvantaged backgrounds, with limited effects on marriage. Among women, we find no statistically significant effects of increased exposure to FSP on fertility and marriage. Our study builds on a growing literature that considers the intergenerational impacts of public policies that increase childhood economic resources.",
+          "abstract_source": "https://doi.org/10.1007/s00148-026-01198-4",
           "links": [
             {"label": "DOI", "url": "https://doi.org/10.1007/s00148-026-01198-4"}
           ]
@@ -25,6 +27,8 @@
           "year": "2026",
           "venue": "Applied Economic Perspectives and Policy",
           "journal": "Applied Economic Perspectives and Policy",
+          "abstract": "The Supplemental Nutrition Assistance Program (SNAP) benefits millions of eligible low-income Americans by increasing access to food, helping to reduce food insecurity. Previous studies have documented that the geographical variation in local food prices leads to significant differences in SNAP's purchasing power. This paper examines the impact of geographical variation in SNAP's purchasing power on the diet quality of food-at-home purchases using the Food-at-Home Monthly Area Prices and restricted-access Circana Consumer Network Household Data. Overall, we do not find a statistically significant effect of SNAP purchasing power on diet quality. Our study provides new evidence on how geographic variation in food costs relates to the diet quality of grocery purchases for adult SNAP recipients.",
+          "abstract_source": "https://doi.org/10.1002/aepp.70125",
           "links": [
             {"label": "DOI", "url": "https://doi.org/10.1002/aepp.70125"}
           ]
@@ -38,6 +42,8 @@
           "year": "2025",
           "venue": "Journal of the Royal Statistical Society Series A: Statistics in Society",
           "journal": "Journal of the Royal Statistical Society Series A: Statistics in Society",
+          "abstract": "We provide new insights regarding the headline result that Medicaid increased emergency department (ED) use from the Oregon experiment. Using causal machine learning methods, we find meaningful heterogeneous impacts of Medicaid on ED use. The distribution of conditional treatment effects includes a wide range of negative and positive values, suggesting that the average effect masks substantial heterogeneity. A small group—about 14% of participants—in the right tail of the distribution drives the overall effect. We identify priority groups with economically significant increases in ED use based on demographics and previous utilization. Intensive margin effects are an important driver of increases in ED utilization.",
+          "abstract_source": "https://doi.org/10.1093/jrsssa/qnaf114",
           "links": [
             {"label": "PDF", "url": "assets/papers/qnaf114.pdf"},
             {"label": "DOI", "url": "https://doi.org/10.1093/jrsssa/qnaf114"},
@@ -54,6 +60,8 @@
           "year": "2024",
           "venue": "The World Bank Economic Review, 39(4), 993-1017",
           "journal": "The World Bank Economic Review",
+          "abstract": "In 2010, the government of Ghana shortened the duration of senior high school by one year. As a result of this policy, the 2009 and 2010 high-school entry cohorts experienced exogenously different years of education but took the same exit exam in 2013. Using nationwide administrative data on the two cohorts, we find that the one-year reduction in schooling substantially worsened performance in all subjects. The most economically significant declines occurred in two core subjects with the lowest historical pass rates—core mathematics and integrated science. Analysis by gender shows larger detrimental effects for female students in science, technology, engineering, and mathematics subjects. We also find suggestive evidence that the policy negatively impacted students in the long term.",
+          "abstract_source": "https://doi.org/10.1093/wber/lhae046",
           "links": [
             {"label": "PDF", "url": "assets/papers/Denteh_Asare_Senadza_WBER.pdf"},
             {"label": "DOI", "url": "https://doi.org/10.1093/wber/lhae046"}
@@ -71,6 +79,8 @@
           "year": "2022",
           "venue": "Applied Economic Perspectives and Policy, 44(2), 591-608",
           "journal": "Applied Economic Perspectives and Policy",
+          "abstract": "Senior participation in the Supplemental Nutrition Assistance Program (SNAP) has traditionally been lower than other groups among those eligible, with historical estimates below 50%. We examine the impacts of state SNAP policies on program participation among low-income senior (age 60 and older) and nonsenior households using data from the 2001 to 2014 December Current Population Survey Food Security Supplement. Our results suggest that policies designed to expand SNAP eligibility modestly increased participation among seniors but led to larger increases among nonseniors. In contrast, we find little evidence of effects of policies related to transaction costs, stigma, or outreach on either group.",
+          "abstract_source": "https://doi.org/10.1002/aepp.13231",
           "links": [
             {"label": "PDF", "url": "assets/papers/Applied-Eco-Perspectives-Pol-2022-Jones.pdf"},
             {"label": "DOI", "url": "https://doi.org/10.1002/aepp.13231"}
@@ -90,6 +100,8 @@
           "year": "2021",
           "venue": "The Journal of Economic Education, 52(4), 286-295",
           "journal": "The Journal of Economic Education",
+          "abstract": "Most courses are taught almost exclusively using lecture and, despite gaps in textbook coverage of empirical economics, do not incorporate academic readings. The authors of this article present a \"jigsaw literature review\" cooperative learning activity to address these shortfalls. The jigsaw guides students through formulating a position by synthesizing key ideas from readings with diverse perspectives on a common topic. The authors provide detailed guidance on conducting the activity in upper-level economics courses, based on their experiences while teaching labor economics, public economics, urban economics, health economics, and econometrics. They argue that their activity provides a meaningful way to integrate recent research, policy topics, and diversity issues while promoting student-student interactions. Sample course materials and additional resources are provided for ease of implementation.",
+          "abstract_source": "https://doi.org/10.1080/00220485.2021.1963373",
           "links": [
             {"label": "PDF", "url": "assets/papers/Teaching_controversial_topics.pdf"},
             {"label": "DOI", "url": "https://doi.org/10.1080/00220485.2021.1963373"}
@@ -105,6 +117,8 @@
           "year": "2019",
           "venue": "Southern Economic Journal, 86(1), 202-228",
           "journal": "Southern Economic Journal",
+          "abstract": "Administrative data are considered the \"gold standard\" when measuring program participation, but little evidence exists on their potential problems or implications for econometric estimates. We explore these issues using the FoodAPS, a unique data set containing two different administrative measures of Supplemental Nutrition Assistance Program (SNAP) participation and a survey-based measure. We document substantial ambiguity in the two administrative measures and show that they disagree with each other almost as often as they disagree with self-reported participation. Estimated participation and misreporting rates can be meaningfully sensitive to choices made to resolve this ambiguity and disagreement. We explore sensitivity in regression estimates of the associations between SNAP and food insecurity, obesity, and the healthy eating index. The signs are unchanged across the three measures, and the estimates are mostly not statistically different from each other. However, there are some meaningful differences in the magnitudes and levels of statistical significance of the estimates.",
+          "abstract_source": "https://doi.org/10.1002/soej.12364",
           "links": [
             {"label": "PDF", "url": "assets/papers/estimating_the_associations_2019.pdf"},
             {"label": "DOI", "url": "https://doi.org/10.1002/soej.12364"}
@@ -120,6 +134,8 @@
           "year": "2019",
           "venue": "Journal of Econometrics, 208(2), 487-506",
           "journal": "Journal of Econometrics",
+          "abstract": "Participation in social programs is often misreported in survey data, complicating the estimation of treatment effects. We propose a model to estimate treatment effects under endogenous participation and endogenous misreporting. We present an expression for the asymptotic bias of both OLS and IV estimators and discuss the conditions under which sign reversal may occur. We provide a method for eliminating this bias when researchers have access to information regarding participation and misreporting. We establish the consistency and asymptotic normality of our proposed estimator and assess its small sample performance through Monte Carlo simulations. An empirical example illustrates the proposed method.",
+          "abstract_source": "https://doi.org/10.1016/j.jeconom.2018.10.005",
           "links": [
             {"label": "PDF", "url": "assets/papers/JoE2019.pdf"},
             {"label": "DOI", "url": "https://doi.org/10.1016/j.jeconom.2018.10.005"}
@@ -135,6 +151,8 @@
           "year": "2019",
           "venue": "Empirical Economics, 56(6), 2185-2224",
           "journal": "Empirical Economics",
+          "abstract": "The rates of childhood obesity have increased dramatically in the last few decades. Non-causal evidence suggests that childhood obesity is highly persistent over the life cycle. However, little is known about the origins of this persistence. This paper examines the evolution of anthropometric measures from birth through primary school. We provide estimates of the causal effect of past anthropometric outcomes on future anthropometric outcomes (state dependence) and investigate the importance of time-varying and time-invariant factors in the dynamics of childhood anthropometric measures. We find that anthropometric measures are highly persistent from infancy through primary school. Moreover, most of this persistence is driven by time-invariant, unobserved factors that are determined prior to birth, consistent with the so-called fetal origins hypothesis. Thus, policy interventions designed to improve childhood obesity will only have meaningful, long-run effects if these time-invariant, unobserved factors are altered. Future research is needed to identify such factors, although evidence suggests that maternal nutrition may play an important role.",
+          "abstract_source": "https://doi.org/10.1007/s00181-018-1421-z",
           "links": [
             {"label": "PDF", "url": "assets/papers/Denteh2018_Article_TheOriginsOfEarlyChildhoodAnth.pdf"},
             {"label": "DOI", "url": "https://doi.org/10.1007/s00181-018-1421-z"}
