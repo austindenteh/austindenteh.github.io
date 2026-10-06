@@ -178,7 +178,10 @@
             {"name": "Prithvijit Mukherjee", "url": "https://sites.google.com/view/prithvijitmukherjee/home"}
           ],
           "year": "2026",
-          "venue": "Working paper"
+          "venue": "Working paper",
+          "links": [
+            {"label": "SSRN", "url": "https://ssrn.com/abstract=7562278"}
+          ]
         },
         {
           "title": "On the Estimation of Program Participation with Partial Validation",

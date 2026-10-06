@@ -97,6 +97,7 @@
   <h3>Immigration Enforcement and Child Health</h3>
   <p class="pub-authors">Augustine Denteh, <a href="https://www.makaylalavender.com/">Makayla Lavender</a>, and <a href="https://sites.google.com/view/prithvijitmukherjee/home">Prithvijit Mukherjee</a></p>
   <p class="pub-meta">2026 | Working paper</p>
+  <div class="link-row"><a class="pill-link" href="https://ssrn.com/abstract=7562278">SSRN</a></div>
 </article>
 
 <article class="publication-item">
