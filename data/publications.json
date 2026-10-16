@@ -228,12 +228,14 @@
       "label": "Works in Progress",
       "items": [
         {
-          "title": "Anticipation Effects in Difference-in-Differences Models",
+          "title": "Robust Identification in Difference-in-differences Models",
           "authors": [
-            {"name": "Augustine Denteh"},
+            {"name": "Kyunghoon Ban"},
+            {"name": "Desire Kedagni", "url": "https://sites.google.com/site/desirekedagni/"},
             {"name": "Zhengrun Chen"},
-            {"name": "Desire Kedagni", "url": "https://sites.google.com/site/desirekedagni/"}
-          ]
+            {"name": "Augustine Denteh"}
+          ],
+          "venue": "Draft coming soon!"
         },
         {
           "title": "Misreporting of Program Participation and its Consequences for the Estimates of SNAP's Effects on Food Insecurity",

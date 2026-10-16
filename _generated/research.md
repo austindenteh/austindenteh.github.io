@@ -157,8 +157,9 @@
 <div class="publication-list">
 
 <article class="publication-item">
-  <h3>Anticipation Effects in Difference-in-Differences Models</h3>
-  <p class="pub-authors">Augustine Denteh, Zhengrun Chen, and <a href="https://sites.google.com/site/desirekedagni/">Desire Kedagni</a></p>
+  <h3>Robust Identification in Difference-in-differences Models</h3>
+  <p class="pub-authors">Kyunghoon Ban, <a href="https://sites.google.com/site/desirekedagni/">Desire Kedagni</a>, Zhengrun Chen, and Augustine Denteh</p>
+  <p class="pub-meta">Draft coming soon!</p>
 </article>
 
 <article class="publication-item">
