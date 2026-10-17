@@ -1,0 +1,14 @@
+---
+title: "Methods Matter"
+description: "Essays on econometrics, causal inference, and research practice by Austin Denteh."
+body-classes: methods-index
+listing:
+  contents: "methods-matter/*/index.qmd"
+  type: default
+  sort: "date desc"
+  fields: [date, title, description]
+  date-format: "MMMM D, YYYY"
+  sort-ui: false
+  filter-ui: false
+  categories: false
+---

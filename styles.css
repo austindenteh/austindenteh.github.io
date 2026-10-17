@@ -313,6 +313,122 @@ h2 {
   font-weight: 700;
 }
 
+.methods-index .list.quarto-listing-default {
+  margin-top: 1.8rem;
+}
+
+.methods-index .listing-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  line-height: 1.35;
+}
+
+.methods-index .listing-description {
+  color: var(--muted);
+}
+
+.methods-post main.content {
+  max-width: 860px;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+.methods-post h1.title {
+  font-size: 2.1rem;
+  line-height: 1.2;
+}
+
+.methods-post h2 {
+  font-size: 1.5rem;
+  line-height: 1.35;
+  margin-top: 2.2rem;
+}
+
+.methods-post blockquote {
+  margin: 1.7rem 0;
+  padding: 0.4rem 1.2rem;
+  border-left: 3px solid var(--line);
+  color: var(--ink);
+  background: #f7f9fa;
+}
+
+.methods-post blockquote p {
+  font-family: Georgia, "Times New Roman", serif;
+  font-style: italic;
+  line-height: 1.65;
+  margin: 0.7rem 0;
+}
+
+.methods-post img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-inline: auto;
+}
+
+.methods-post table {
+  display: block;
+  max-width: 100%;
+  overflow-x: auto;
+  font-size: 0.9rem;
+}
+
+.methods-post math[display="block"] {
+  display: block;
+  overflow-x: auto;
+  margin: 1.5rem 0;
+  padding: 0.5rem 0;
+}
+
+.methods-post .reaction-gif {
+  margin: 2.2rem auto;
+  text-align: center;
+}
+
+.methods-post .reaction-gif p {
+  margin: 0.5rem 0;
+}
+
+.methods-post .reaction-media {
+  border-radius: 4px;
+}
+
+.methods-post .reaction-toggle {
+  display: block;
+  min-width: 6.5rem;
+  margin: 0.5rem auto 0;
+  padding: 0.25rem 0.65rem;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  background: var(--soft);
+  color: var(--ink);
+  font: inherit;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+.methods-post .reaction-toggle:hover {
+  background: #eaf0f4;
+}
+
+.methods-post .reaction-toggle:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+.methods-post .reaction-toggle[hidden] {
+  display: none;
+}
+
+.methods-post #refs {
+  font-size: 0.92rem;
+  overflow-wrap: anywhere;
+}
+
+.methods-post #refs .csl-entry {
+  margin: 1rem 0;
+}
+
 @media (max-width: 880px) {
   .home-hero {
     grid-template-columns: 1fr;
@@ -347,6 +463,23 @@ h2 {
 
   body {
     font-size: 16px;
+  }
+
+  .methods-post main.content {
+    font-size: 16px;
+  }
+
+  .methods-post h1.title {
+    font-size: 1.75rem;
+  }
+
+  .methods-post table {
+    font-size: 0.8rem;
+  }
+
+  .methods-post th,
+  .methods-post td {
+    padding: 0.35rem;
   }
 
   .hero-name {

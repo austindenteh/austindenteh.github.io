@@ -1,0 +1,57 @@
+<script>
+(() => {
+  function setupReactions() {
+    const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    document.querySelectorAll('.reaction-gif img').forEach((img) => {
+      const animatedSource = img.src;
+      const button = document.createElement('button');
+      button.type = 'button';
+      button.className = 'reaction-toggle';
+      button.disabled = !img.complete || !img.naturalWidth;
+      img.addEventListener('load', () => { button.disabled = false; });
+      img.addEventListener('error', () => { button.hidden = true; });
+      let playing = true;
+      function updateLabel() {
+        button.textContent = playing ? 'Pause GIF' : 'Play GIF';
+        button.setAttribute('aria-label', `${playing ? 'Pause' : 'Play'} animation: ${img.alt}`);
+        button.setAttribute('aria-pressed', String(!playing));
+      }
+      function pause() {
+        try {
+          const canvas = document.createElement('canvas');
+          canvas.width = img.naturalWidth;
+          canvas.height = img.naturalHeight;
+          const context = canvas.getContext('2d');
+          if (!context || !canvas.width || !canvas.height) return;
+          context.drawImage(img, 0, 0);
+          img.src = canvas.toDataURL('image/png');
+          playing = false;
+          updateLabel();
+        } catch (_) {
+          button.hidden = true;
+        }
+      }
+      button.addEventListener('click', () => {
+        if (playing) {
+          pause();
+        } else {
+          img.src = animatedSource;
+          playing = true;
+          updateLabel();
+        }
+      });
+      updateLabel();
+      img.insertAdjacentElement('afterend', button);
+      if (reduceMotion) {
+        if (img.complete && img.naturalWidth) pause();
+        else img.addEventListener('load', pause, { once: true });
+      }
+    });
+  }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', setupReactions, { once: true });
+  } else {
+    setupReactions();
+  }
+})();
+</script>

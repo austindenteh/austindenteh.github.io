@@ -3,6 +3,7 @@ project:
   output-dir: _site
   render:
     - "*.qmd"
+    - "methods-matter/**/*.qmd"
     - "!talks.qmd"
     - "!blog.qmd"
   pre-render: scripts/render_data.py
@@ -34,6 +35,8 @@ website:
         text: Resources
       - href: teaching.qmd
         text: Teaching
+      - href: methods-matter.qmd
+        text: Methods Matter
       - href: media.qmd
         text: Media
   page-footer:

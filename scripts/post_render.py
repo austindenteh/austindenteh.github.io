@@ -8,7 +8,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 SITE = ROOT / "_site"
-PAGES = ["cv", "research", "resources", "teaching", "media"]
+PAGES = ["cv", "research", "resources", "teaching", "media", "methods-matter"]
 DISABLED_PAGES = ["talks", "notes", "blog", "code"]
 BOOTSTRAP_ICONS_LINK_RE = re.compile(
     r'^\s*<link href="[^"]*site_libs/bootstrap/bootstrap-icons\.css" rel="stylesheet">\s*\n?',
@@ -46,6 +46,8 @@ def rewrite_for_directory_page(html_text):
         'href="index.html"': 'href="../index.html"',
         'href="./index.html"': 'href="../index.html"',
         'href="./"': 'href="../index.html"',
+        'href="methods-matter/': 'href="../methods-matter/',
+        'href="./methods-matter/': 'href="../methods-matter/',
     }
     for page in PAGES:
         replacements[f'href="{page}.html"'] = f'href="../{page}.html"'
@@ -131,8 +133,11 @@ def fingerprint_custom_css():
 
     for path in SITE.rglob("*.html"):
         text = path.read_text()
-        text = text.replace('href="styles.css"', f'href="{fingerprinted_name}"')
-        text = text.replace('href="../styles.css"', f'href="../{fingerprinted_name}"')
+        text = re.sub(
+            r'href="((?:\.\./)*)styles\.css"',
+            lambda match: f'href="{match.group(1)}{fingerprinted_name}"',
+            text,
+        )
         path.write_text(text)
 
 

@@ -1,0 +1,61 @@
+{
+  "purpose": "Requested blog reaction GIFs; source attribution does not assert ownership or blanket reuse rights.",
+  "assets": [
+    {
+      "file": "turntables.gif",
+      "source_page": "https://tenor.com/view/the-office-how-the-turntables-how-the-tables-have-turned-michael-scott-gif-7297780",
+      "media_url": "https://media1.tenor.com/m/uGAdOYcchJEAAAAd/the-office-how-the-turntables.gif",
+      "work": "The Office",
+      "accessed_on": "2026-10-17",
+      "bytes": 1043005,
+      "sha256": "758530d1c2bb48efe7f747dea0e00d82fd9c76dd095f240295698bc8395ebd34",
+      "width": 244,
+      "height": 284,
+      "frames": 51,
+      "duration_ms": 3570,
+      "loop": 0
+    },
+    {
+      "file": "same-picture.gif",
+      "source_page": "https://tenor.com/view/theyre-the-same-picture-the-office-pam-the-office-us-gif-20757621",
+      "media_url": "https://media1.tenor.com/m/fHz7wfvakO8AAAAd/theyre-the-same-picture-the-office.gif",
+      "work": "The Office",
+      "accessed_on": "2026-10-17",
+      "bytes": 729534,
+      "sha256": "e088d55308bf4d7d96ba07de33e87fe255d5dc6316970450a284b535316fd908",
+      "width": 640,
+      "height": 360,
+      "frames": 67,
+      "duration_ms": 2680,
+      "loop": 0
+    },
+    {
+      "file": "gandalf.gif",
+      "source_page": "https://tenor.com/view/hobbit-gandalf-nope-bye-getout-gif-3577334",
+      "media_url": "https://media1.tenor.com/m/wka4b5X3Q10AAAAd/hobbit-gandalf.gif",
+      "work": "The Lord of the Rings",
+      "accessed_on": "2026-10-17",
+      "bytes": 368810,
+      "sha256": "910be2c0360392473a53935fa17fc2617b7083ee10975d9d2779569bb8664f9e",
+      "width": 294,
+      "height": 200,
+      "frames": 18,
+      "duration_ms": 3600,
+      "loop": 0
+    },
+    {
+      "file": "homer.gif",
+      "source_page": "https://gifrific.com/homer-simpson-backing-into-bushes/",
+      "media_url": "https://gifrific.com/wp-content/uploads/2012/08/no-words-homer-into-brush.gif",
+      "work": "The Simpsons",
+      "accessed_on": "2026-10-17",
+      "bytes": 973649,
+      "sha256": "fec29cad3f4e514c99de06dca684584fc2b509f2cc967a797cea4861bfbf3880",
+      "width": 340,
+      "height": 255,
+      "frames": 41,
+      "duration_ms": 2000,
+      "loop": 0
+    }
+  ]
+}
