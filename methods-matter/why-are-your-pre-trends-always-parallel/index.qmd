@@ -22,6 +22,10 @@ format:
     link-external-newwindow: true
 ---
 
+::: {.post-crosslink}
+[Also on Substack](https://methodsmatter.substack.com/p/why-are-your-pre-trends-always-parallel)
+:::
+
 > Econometric theory is like an exquisitely balanced French recipe, spelling
 > out precisely with how many turns to mix the sauce, how many carats of
 > spice to add, and for how many milliseconds to bake the mixture at exactly

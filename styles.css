@@ -338,6 +338,15 @@ h2 {
   line-height: 1.2;
 }
 
+.methods-post .post-crosslink {
+  margin-bottom: 1.5rem;
+  font-size: 0.9rem;
+}
+
+.methods-post .post-crosslink p {
+  margin: 0;
+}
+
 .methods-post h2 {
   font-size: 1.5rem;
   line-height: 1.35;

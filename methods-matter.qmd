@@ -12,3 +12,5 @@ listing:
   filter-ui: false
   categories: false
 ---
+
+[Subscribe on Substack](https://methodsmatter.substack.com/subscribe)
