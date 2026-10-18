@@ -42,10 +42,6 @@ Davidson, NC 28035
 :::
 :::
 
-::: {.interest-strip}
-`Health Economics` `Applied Econometrics` `Causal Inference` `Measurement Error` `Food and Nutrition Programs`
-:::
-
 ## Selected Work
 
 ::: {.feature-grid}
