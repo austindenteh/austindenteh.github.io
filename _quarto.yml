@@ -63,6 +63,7 @@ format:
     smooth-scroll: false
     link-external-newwindow: true
     anchor-sections: false
+    include-after-body: includes/cloudflare-analytics.html
 
 execute:
   freeze: auto

@@ -38,6 +38,13 @@ The GitHub Actions workflow in `.github/workflows/publish.yml` renders the Quart
 
 The custom domain is `austindenteh.com`. The root `CNAME` file is included in the Quarto resources so GitHub Pages preserves the custom-domain setting during deploys.
 
+## Analytics
+
+Cloudflare Web Analytics is included on every page through
+`includes/cloudflare-analytics.html` in the shared HTML configuration in
+`_quarto.yml`. This uses Cloudflare's JavaScript snippet with the existing
+GitHub Pages hosting and Bluehost DNS.
+
 ## Methods Matter Posts
 
 Each post lives in its own folder under `methods-matter/`, with an `index.qmd`,
