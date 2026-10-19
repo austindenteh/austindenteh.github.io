@@ -23,7 +23,7 @@ format:
 ---
 
 ::: {.post-crosslink}
-[Also on Substack](https://methodsmatter.substack.com/p/why-are-your-pre-trends-always-parallel)
+[Read on Substack](https://methodsmatter.substack.com/p/why-are-your-pre-trends-always-parallel){.button}
 :::
 
 > Econometric theory is like an exquisitely balanced French recipe, spelling
@@ -326,6 +326,10 @@ information provided by the requirement justifies the selection and specificatio
 it may induce, compared with feasible alternatives.
 
 In closing, (1) we need to put the evidence in DID papers on a lower pedestal because of the bad incentives we have created by the flat pre-trends requirement, (2) we need to have an immediate moratorium on the requirement to show flat pre-trends as a condition for publication: we need to get comfortable with the idea that DID estimates depend on an untestable assumption and multiple kinds of evidence need to be stated and presented clearly, including any remaining uncertainty, and (3) I plan to return shortly with some ideas for robust identification and sensitivity analysis in DID. Be on the lookout!
+
+::: {.post-subscribe}
+[Subscribe on Substack](https://methodsmatter.substack.com/subscribe){.button .primary}
+:::
 
 ## References
 

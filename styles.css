@@ -384,6 +384,18 @@ h2 {
   color: var(--muted);
 }
 
+.methods-index .button,
+.methods-post .button {
+  min-height: 44px;
+  font-size: 1rem;
+}
+
+.methods-index .button:focus-visible,
+.methods-post .button:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 3px;
+}
+
 .methods-post main.content {
   max-width: 860px;
   font-size: 18px;
@@ -397,11 +409,16 @@ h2 {
 
 .methods-post .post-crosslink {
   margin-bottom: 1.5rem;
-  font-size: 0.9rem;
 }
 
 .methods-post .post-crosslink p {
   margin: 0;
+}
+
+.methods-post .post-subscribe {
+  margin: 2rem 0;
+  padding-top: 1.2rem;
+  border-top: 1px solid var(--line);
 }
 
 .methods-post h2 {

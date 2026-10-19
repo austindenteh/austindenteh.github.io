@@ -13,4 +13,6 @@ listing:
   categories: false
 ---
 
-[Subscribe on Substack](https://methodsmatter.substack.com/subscribe)
+::: {.button-row .methods-subscribe}
+[Subscribe on Substack](https://methodsmatter.substack.com/subscribe){.button .primary}
+:::
