@@ -52,7 +52,8 @@ Davidson, NC 28035
 What pre-trends can tell us about difference-in-differences, and what they cannot.
 
 ::: {.post-actions}
-[Read post](methods-matter/why-are-your-pre-trends-always-parallel/index.qmd)
+[Read here](methods-matter/why-are-your-pre-trends-always-parallel/index.qmd)
+[Read on Substack](https://methodsmatter.substack.com/p/why-are-your-pre-trends-always-parallel)
 [All posts](methods-matter.qmd)
 :::
 :::
