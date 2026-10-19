@@ -85,7 +85,7 @@ Methods for estimating treatment effects and program participation when particip
 :::
 :::
 
-## Projects
+## Featured Resources
 
 ::: {.feature-grid}
 ::: {.feature-card}
@@ -97,11 +97,7 @@ A public discovery tool for finding economists by research topic, method, paper,
 
 [Read the launch announcement](https://www.linkedin.com/posts/augustinedenteh_econexpert-activity-7507537168890880000-67DV)
 :::
-:::
 
-## Featured Resources
-
-::: {.feature-grid}
 ::: {.feature-card}
 ### Econ Data Starters
 
@@ -118,13 +114,6 @@ Workshop materials on difference-in-differences with staggered treatment timing.
 [Repository](https://github.com/austindenteh/staggered-did-workshop)
 :::
 
-::: {.feature-card}
-### Synthetic Data for Economic Policymaking
-
-Workshop tutorial on synthetic data generation for economics and policy applications, prepared for IndabaX Ghana 2026.
-
-[Repository](https://github.com/Ghana-Data-Science-Summit-IndabaX-Ghana/IndabaX-2026/tree/main/Synthetic%20Data%20Generation%20for%20Economic%20Policymaking)
-:::
 :::
 
 ## Community & Leadership
