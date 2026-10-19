@@ -57,3 +57,7 @@ The first post was adapted from the final Quarto source in
 `pre_trends_did/blogs/01-what-can-we-learn/`. The website copy preserves the prose;
 only publishing metadata, media paths, and loading attributes were adapted.
 Keep later author edits and this website copy synchronized before deploying.
+
+The homepage's compact "Latest From Methods Matter" feature is maintained in
+`index.qmd`. Update its title, date, description, and links when featuring a new
+post; the Methods Matter index lists published posts automatically.

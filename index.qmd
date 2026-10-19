@@ -42,6 +42,21 @@ Davidson, NC 28035
 :::
 :::
 
+::: {.methods-home}
+## Latest From Methods Matter
+
+<p class="post-date"><time datetime="2026-10-17">October 17, 2026</time></p>
+
+### [Why are your pre-trends always parallel?](methods-matter/why-are-your-pre-trends-always-parallel/index.qmd)
+
+What pre-trends can tell us about difference-in-differences, and what they cannot.
+
+::: {.post-actions}
+[Read post](methods-matter/why-are-your-pre-trends-always-parallel/index.qmd)
+[All posts](methods-matter.qmd)
+:::
+:::
+
 ## Selected Work
 
 ::: {.feature-grid}

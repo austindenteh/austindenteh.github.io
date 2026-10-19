@@ -31,12 +31,12 @@ website:
         text: Research
       - href: cv.qmd
         text: CV
+      - href: methods-matter.qmd
+        text: Methods Matter
       - href: resources.qmd
         text: Resources
       - href: teaching.qmd
         text: Teaching
-      - href: methods-matter.qmd
-        text: Methods Matter
       - href: media.qmd
         text: Media
   page-footer:
