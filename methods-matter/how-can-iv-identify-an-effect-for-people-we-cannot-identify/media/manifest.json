@@ -1,0 +1,61 @@
+{
+  "purpose": "User-approved reaction GIFs; source metadata retained separately from visible captions.",
+  "assets": [
+    {
+      "file": "did-landmine.gif",
+      "source_page": "https://tenor.com/view/wile-e-coyote-foot-leg-toes-coyote-gif-4308307648778835628",
+      "media_url": "https://media1.tenor.com/m/O8ou-uyPlqwAAAAC/wile-e-coyote-foot.gif",
+      "work": "Looney Tunes — Wile E. Coyote steps onto dynamite",
+      "accessed_on": "2026-10-24",
+      "bytes": 5628267,
+      "sha256": "951af03ff55a82cb7ac18ee1c3ce9a5385af768870baf3a043bfc3b3fa9d5681",
+      "width": 498,
+      "height": 374,
+      "frames": 66,
+      "duration_ms": 6600,
+      "loop": 0
+    },
+    {
+      "file": "travolta.gif",
+      "source_page": "https://tenor.com/view/confused-travolta-pulp-fiction-pulp-fiction-gif-4917640",
+      "media_url": "https://media1.tenor.com/m/YAlprHRn7pUAAAAC/confused-travolta.gif",
+      "work": "Pulp Fiction — confused Travolta",
+      "accessed_on": "2026-10-18",
+      "bytes": 3339503,
+      "sha256": "bf0c59bb1e00b7017d39e958fa93763293a58dcde34be2512266c97da11a6138",
+      "width": 426,
+      "height": 212,
+      "frames": 59,
+      "duration_ms": 3540,
+      "loop": 0
+    },
+    {
+      "file": "kronk.gif",
+      "source_page": "https://tenor.com/view/kronk-oh-yeah-its-all-coming-together-the-emperorss-new-groove-gif-15204610",
+      "media_url": "https://media1.tenor.com/m/sqYV7D2euF8AAAAC/kronk-oh-yeah-its-all-coming-together.gif",
+      "work": "The Emperor’s New Groove — Kronk, it’s all coming together",
+      "accessed_on": "2026-10-18",
+      "bytes": 1369235,
+      "sha256": "b55fa2dd1e016fde060f7d01a966aa1b0a3c26ac543fbc9c75b2e8837055db73",
+      "width": 498,
+      "height": 287,
+      "frames": 23,
+      "duration_ms": 2300,
+      "loop": 0
+    },
+    {
+      "file": "not-how-it-works.gif",
+      "source_page": "https://tenor.com/view/thats-not-how-it-works-nope-no-disagree-wrong-gif-5102428",
+      "media_url": "https://media1.tenor.com/m/sUqltCflSHcAAAAC/thats-not-how-it-works-nope.gif",
+      "work": "Esurance — that’s not how it works",
+      "accessed_on": "2026-10-18",
+      "bytes": 4457647,
+      "sha256": "92a70b3dec5745b971db27e6dc227d1c472c57defcd8f65fdfc69f270baa5b8f",
+      "width": 498,
+      "height": 280,
+      "frames": 45,
+      "duration_ms": 4500,
+      "loop": 0
+    }
+  ]
+}

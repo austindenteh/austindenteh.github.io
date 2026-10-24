@@ -45,15 +45,15 @@ Davidson, NC 28035
 ::: {.methods-home}
 ## Latest From Methods Matter
 
-<p class="post-date"><time datetime="2026-10-17">October 17, 2026</time></p>
+<p class="post-date"><time datetime="2026-10-24">October 24, 2026</time></p>
 
-### [Why are your pre-trends always parallel?](methods-matter/why-are-your-pre-trends-always-parallel/index.qmd)
+### [How can IV identify an effect for people we cannot pick out in our data?](methods-matter/how-can-iv-identify-an-effect-for-people-we-cannot-identify/index.qmd)
 
-What pre-trends can tell us about difference-in-differences, and what they cannot.
+Understanding LATE, part 1: how an instrument can recover the average effect for compliers even when we cannot label them in the data.
 
 ::: {.post-actions}
-[Read here](methods-matter/why-are-your-pre-trends-always-parallel/index.qmd)
-[Read on Substack](https://methodsmatter.substack.com/p/why-are-your-pre-trends-always-parallel)
+[Read here](methods-matter/how-can-iv-identify-an-effect-for-people-we-cannot-identify/index.qmd)
+[Read on Substack](https://methodsmatter.substack.com/p/how-can-iv-identify-an-effect-for)
 [All posts](methods-matter.qmd)
 :::
 :::

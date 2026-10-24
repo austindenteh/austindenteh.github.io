@@ -58,6 +58,12 @@ The first post was adapted from the final Quarto source in
 only publishing metadata, media paths, and loading attributes were adapted.
 Keep later author edits and this website copy synchronized before deploying.
 
+The IV/LATE post was adapted from the final source in
+pre_trends_did/blogs/02-understanding-late/. Its local include, type-color
+filter, and post-scoped styles preserve the article's tables and diagram without
+changing the shared website design. Use the publication date, rather than the
+local draft's date, when adding a new entry.
+
 The homepage's compact "Latest From Methods Matter" feature is maintained in
 `index.qmd`. Update its title, date, description, and links when featuring a new
 post; the Methods Matter index lists published posts automatically.
