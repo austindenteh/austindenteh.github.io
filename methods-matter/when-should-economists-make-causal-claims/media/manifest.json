@@ -1,0 +1,19 @@
+{
+  "purpose": "Additional reaction GIF retained in Post 3; superseded declaration GIF is archived privately.",
+  "assets": [
+    {
+      "file": "gandalf.gif",
+      "source_page": "https://tenor.com/view/hobbit-gandalf-nope-bye-getout-gif-3577334",
+      "media_url": "https://media1.tenor.com/m/wka4b5X3Q10AAAAd/hobbit-gandalf.gif",
+      "work": "The Lord of the Rings",
+      "accessed_on": "2026-11-10",
+      "bytes": 368810,
+      "sha256": "910be2c0360392473a53935fa17fc2617b7083ee10975d9d2779569bb8664f9e",
+      "width": 294,
+      "height": 200,
+      "frames": 18,
+      "duration_ms": 3600,
+      "loop": 0
+    }
+  ]
+}

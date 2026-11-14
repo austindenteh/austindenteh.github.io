@@ -45,15 +45,15 @@ Davidson, NC 28035
 ::: {.methods-home}
 ## Latest From Methods Matter
 
-<p class="post-date"><time datetime="2026-10-24">October 24, 2026</time></p>
+<p class="post-date"><time datetime="2026-11-14">November 14, 2026</time></p>
 
-### [How can IV identify an effect for people we cannot pick out in our data?](methods-matter/how-can-iv-identify-an-effect-for-people-we-cannot-identify/index.qmd)
+### [When should economists make causal claims from quasi-experimental studies? I dunno.](methods-matter/when-should-economists-make-causal-claims/index.qmd)
 
-Understanding LATE, part 1: how an instrument can recover the average effect for compliers even when we cannot label them in the data.
+An organizing framework for what we can learn and claim from data.
 
 ::: {.post-actions}
-[Read here](methods-matter/how-can-iv-identify-an-effect-for-people-we-cannot-identify/index.qmd)
-[Read on Substack](https://methodsmatter.substack.com/p/how-can-iv-identify-an-effect-for)
+[Read here](methods-matter/when-should-economists-make-causal-claims/index.qmd)
+[Read on Substack](https://methodsmatter.substack.com/p/when-should-economists-make-causal)
 [All posts](methods-matter.qmd)
 :::
 :::
